@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-05T15:43:36.407Z",
+  "userScores": {
+    "standard_user": {
+      "error": "locator.count: Target page, context or browser has been closed"
+    },
+    "problem_user": {
+      "error": "page.goto: Target page, context or browser has been closed"
+    },
+    "performance_glitch_user": {
+      "error": "page.goto: Target page, context or browser has been closed"
+    },
+    "visual_user": {
+      "error": "page.goto: Target page, context or browser has been closed"
+    }
+  },
+  "summary": {
+    "totalUsers": 4,
+    "successfulTests": 0,
+    "averageTestability": null
+  }
+}

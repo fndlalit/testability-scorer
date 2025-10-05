@@ -1,0 +1,29 @@
+{
+  "name": "playwright-mcp-testing",
+  "version": "1.0.0",
+  "description": "Playwright testing project with MCP (Model Context Protocol) integration for automated web testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "install-browsers": "playwright install",
+    "install-deps": "playwright install-deps"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "e2e",
+    "mcp",
+    "web-testing"
+  ],
+  "author": "Demo User",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "dependencies": {}
+}

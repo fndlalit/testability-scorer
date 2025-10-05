@@ -1,0 +1,34 @@
+
+📊 INTRINSIC TESTABILITY COMPARISON REPORT
+Generated: 2025-10-05T15:42:20.058Z
+================================================================================
+
+USER TYPE           | OVERALL | OBSERV | CONTROL | SIMPLE | EXPLAIN | DECOMP | GRADE
+--------------------------------------------------------------------------------
+standard_user       |      52 |     76 |      26 |     62 |      34 |     61 | F (Poor)
+problem_user        |      52 |     76 |      26 |     62 |      34 |     61 | F (Poor)
+performance_glitch_user |      52 |     76 |      26 |     62 |      34 |     61 | F (Poor)
+visual_user         |      52 |     76 |      26 |     62 |      34 |     61 | F (Poor)
+error_user          |      52 |     76 |      26 |     62 |      34 |     61 | F (Poor)
+
+📈 ANALYSIS:
+----------------------------------------
+Average Testability Score: 52/100
+Best Performing User: standard_user (52/100)
+Worst Performing User: standard_user (52/100)
+Score Range: 52-52 (0 point spread)
+
+🎯 PRINCIPLE STRENGTH ANALYSIS:
+----------------------------------------
+observability       :  76/100 🟡 Moderate
+algorithmicSimplicity:  62/100 🟡 Moderate
+decomposability     :  61/100 🟡 Moderate
+explainability      :  34/100 🔴 Weak
+controllability     :  26/100 🔴 Weak
+
+💡 RECOMMENDATIONS:
+----------------------------------------
+• controllability: Improve interactive element accessibility and form design
+• algorithmicSimplicity: Reduce page complexity and improve semantic structure
+• explainability: Add semantic HTML elements and accessibility attributes
+• decomposability: Improve component separation and modular design
