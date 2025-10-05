@@ -289,7 +289,7 @@ When adding new tests, ensure they demonstrate one or more of the Intrinsic Test
 ## Resources
 
 - [Playwright Documentation](https://playwright.dev/)
-- [Intrinsic Testability Principles](https://www.satisfice.com/blog/archives/5164)
+- [Heuristics for Software Testability ](https://www.satisfice.com/download/heuristics-of-software-testability)
 - [Test Automation Best Practices](https://playwright.dev/docs/best-practices)
 
 ---
