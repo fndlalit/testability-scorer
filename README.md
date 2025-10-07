@@ -2,9 +2,9 @@
 
 # Disclaimer:
 
-This is work-in-progress project by  [Lalitkumar Bhamare](https://www.linkedin.com/in/lalitkumarbhamare/) and [Samer Naqvie](https://www.linkedin.com/in/samer-naqvi/),  primarily created for their interactive workshop on Software Testability. Key purpose of this project is to introduce the participants to the idea behind Intrinsic Testability as explained by [James Bach](https://www.linkedin.com/in/james-bach-6188a811/) and [Michael Bolton](https://www.linkedin.com/in/michael-bolton-08847/)in [Heuristics for Software Testability](https://www.satisfice.com/download/heuristics-of-software-testability) And then to extend that understanding for writing automated checks for high level testability assessment of the SUT (System Under Test).
+This is work-in-progress project by  [Lalitkumar Bhamare](https://www.linkedin.com/in/lalitkumarbhamare/) and [Samer Naqvi](https://www.linkedin.com/in/samer-naqvi/),  primarily created for their interactive workshop on Software Testability. Key purpose of this project is to introduce the participants to the idea behind Intrinsic Testability as explained by [James Bach](https://www.linkedin.com/in/james-bach-6188a811/) and [Michael Bolton](https://www.linkedin.com/in/michael-bolton-08847/)in [Heuristics for Software Testability](https://www.satisfice.com/download/heuristics-of-software-testability) And then to extend that understanding for writing automated checks for high level testability assessment of the SUT (System Under Test).
 
-Readers are strongly encouraged to develop deeper understanding of Software Testability before utilizing this project for any further use. Scripts used and scoring mechanism defined in the project files are for demonstration purpose only. Watch out for some AI slop. A careful review, context-appropriate adaption and further development of the scripts/set-up is strongly recommended.
+Readers are strongly encouraged to develop deeper understanding of Software Testability before utilizing this project for any further use. Scripts used and scoring mechanism defined in the project files are for demonstration purpose only. Watch out for any AI slop. A careful review, context-appropriate adaption and further development of the scripts/set-up is strongly recommended.
 
 This is a Playwright testing setup that demonstrates the **10 Principles of Intrinsic Testability** through automated checking examples.
 
@@ -318,9 +318,9 @@ The `playwright.config.js` file includes:
 ## Learning Objectives
 
 By exploring this project, you'll understand:
-1. How to write effective Playwright tests
+1. The concept of Intrinsic Testability in software context
 2. The relationship between test automation and software testability
-3. Practical applications of Intrinsic Testability principles
+3. Practical applications of Intrinsic Testability principles via automated checks
 4. Best practices for observable and controllable test automation
 
 ## Demo Sites Used
