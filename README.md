@@ -145,6 +145,99 @@ npx playwright test saucedemo-e2e.spec.js --grep="Visual and UI Regression"
 npm run test:report
 ```
 
+## 📊 Interactive HTML Reports
+
+This project generates **comprehensive interactive HTML reports** with visual charts, detailed breakdowns, and AI-powered recommendations for testability assessment. These reports provide an intuitive way to understand your application's testability across all 10 principles.
+
+### 🎯 HTML Report Features
+- **Interactive Charts**: Visual representation of testability scores using Chart.js
+- **10-Principle Analysis**: Detailed breakdown of each testability principle
+- **AI Recommendations**: Smart suggestions for improvement powered by Playwright 1.49.0
+- **User Comparisons**: Side-by-side analysis of different user types
+- **Detailed Metrics**: 35+ sub-measurements per analysis
+- **Professional Layout**: Conference and presentation-ready output
+- **Auto-Browser Opening**: Reports automatically open in your default browser
+
+### 🚀 HTML Report Commands
+
+#### Complete Analysis
+```bash
+# Complete analysis with HTML reports
+npm run testability:complete
+```
+Runs comprehensive 10-principle analysis for all SauceDemo user types and generates interactive HTML report.
+
+#### Detailed Analysis
+```bash
+# Detailed individual principle analysis
+npm run testability:detailed
+```
+Performs deep-dive analysis for standard user with detailed metrics and generates HTML report.
+
+#### Comparative Analysis
+```bash
+# Compare all user types
+npm run testability:comparison
+```
+Side-by-side comparison of different user types with HTML visualization.
+
+#### Focused Analysis
+```bash
+# Focus on observability testing
+npm run testability:observability
+```
+Specialized analysis focusing on observability principle with detailed HTML breakdown.
+
+#### AI-Enhanced Analysis
+```bash
+# AI-enhanced analysis
+npm run testability:ai
+```
+Advanced analysis using Playwright's AI capabilities with smart recommendations.
+
+#### Quick Report Generation
+```bash
+# Quick HTML report generation
+npm run report:html
+```
+Fast HTML report generation with automatic browser opening.
+
+#### All Tests with Reports
+```bash
+# Run ALL tests in complete-10-principle-testability.spec.js with HTML report
+npm run testability:all-tests
+```
+Executes all testability tests and generates comprehensive HTML report with full analysis.
+
+### 📂 Report Storage
+HTML reports are automatically saved to:
+```
+tests/reports/testability-report-YYYY-MM-DDTHH-MM-SS-sssZ.html
+```
+
+### 🌐 Online Report Viewing
+Access interactive reports online via GitHub Pages:
+```
+https://fndlalit.github.io/testability-scorer/
+```
+
+### 💡 Using HTML Reports
+1. **Run any testability command** - Reports generate automatically
+2. **Browser opens automatically** - No manual file opening needed  
+3. **Analyze results** - Interactive charts show scores and trends
+4. **Review AI recommendations** - Get smart suggestions for improvements
+5. **Share with team** - Professional reports ready for presentations
+
+### 📈 Report Content Overview
+Each HTML report includes:
+- **Overall Testability Score** (0-100 scale)
+- **Individual Principle Scores** with color-coded indicators
+- **Detailed Sub-Metrics** for each principle
+- **AI-Generated Recommendations** with reasoning
+- **Visual Charts** showing score distributions
+- **User Type Comparisons** (when applicable)
+- **Historical Context** and improvement suggestions
+
 ## Test Files Description
 
 ### `basic-web-tests.spec.js`
@@ -268,8 +361,14 @@ This project includes a **quantitative scoring framework** that measures applica
 
 ### Quick Start:
 ```bash
+# 🎯 RECOMMENDED: Complete testability analysis with interactive HTML report
+npm run testability:all-tests
+
 # Get current testability score
 node run-testability-scorer.js score
+
+# Generate quick HTML report  
+npm run report:html
 
 # View improvement history  
 node run-testability-scorer.js report
@@ -280,6 +379,8 @@ npx playwright test quick-testability-scorer.spec.js --project=chromium
 # Show user comparison (to be reviewed)
 npx playwright test quick-testability-scorer.spec.js --grep="Compare" --headed
 ```
+
+**💡 Pro Tip**: Use `npm run testability:all-tests` for the most comprehensive analysis with beautiful HTML reports that automatically open in your browser!
 
 For complete scoring guide, see [TESTABILITY_SCORING_GUIDE.md](./TESTABILITY_SCORING_GUIDE.md).
 
