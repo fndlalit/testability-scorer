@@ -96,12 +96,12 @@ const COMMANDS = {
     command: 'npm test -- --project=chromium "tests/ai-testability-scorer.spec.js"'
   },
   'failures': {
-    description: '🚨 Testability failure examples with HTML report - perfect for conference demos',
+    description: '🚨 Testability failure examples with HTML report - perfect for educational demos',
     command: 'npm test -- --project=chromium "tests/testability-failure-examples.spec.js" --reporter=list'
   },
   'failures-demo': {
-    description: '🎤 Testability failure examples with slow motion and HTML report - conference presentation mode',
-    command: 'npm test -- --project=chromium "tests/testability-failure-examples.spec.js" --headed --slowMo=1000 --reporter=list'
+    description: '🎤 Testability failure examples with slow motion and HTML report - educational demonstration mode',
+    command: 'npm test -- --project=chromium "tests/testability-failure-examples.spec.js" --headed --slow-mo=1000 --reporter=list'
   }
 };
 
@@ -131,9 +131,9 @@ Examples:
   node generate-html-report.js failures        # 🚨 Failure examples with HTML report
   node generate-html-report.js failures-demo   # 🎤 Failure examples (slow motion) with HTML report
 
-📊 Conference Demo Commands:
-  failures      - Perfect for showing testability challenges with interactive reports
-  failures-demo - Slow motion version ideal for live presentations
+📊 Educational Demo Commands:
+  failures     - Quick failure analysis with HTML report
+  failures-demo - Slow motion version ideal for live demonstrations
 
 The HTML reports will be generated in: tests/reports/
 Open the generated HTML file in your browser for interactive analysis.

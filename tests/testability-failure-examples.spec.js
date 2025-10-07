@@ -2,7 +2,7 @@
  * 🚨 Testability Failure Examples & Learning Opportunities
  * 
  * This test file demonstrates testability challenges with problematic user types
- * Perfect for conference presentations showing real-world testability issues:
+ * Perfect for educational presentations showing real-world testability issues:
  * 
  * - performance_glitch_user: Performance and timing-related testability issues
  * - error_user: Error handling and system resilience challenges  
@@ -254,14 +254,14 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
       }
     }
     
-    console.log('\n🎯 KEY CONFERENCE TEACHING POINTS:');
+    console.log('\n🎯 KEY TEACHING POINTS:');
     console.log('   1. Different user types reveal different testability weaknesses');
     console.log('   2. Performance issues primarily affect stability and controllability');
     console.log('   3. Error states reduce unbugginess and explainability');
     console.log('   4. Visual problems impact observability and decomposability');
     console.log('   5. Intrinsic testability principles help identify and categorize issues');
     
-    // Save results for conference presentation
+    // Save results for educational purposes
     const reportPath = `tests/reports/testability-failure-analysis-${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
     require('fs').writeFileSync(reportPath, JSON.stringify({
       timestamp: new Date().toISOString(),
@@ -276,7 +276,7 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
     }, null, 2));
     
     console.log(`\n💾 Failure analysis report saved: ${reportPath}`);
-    console.log('📊 Perfect for conference presentation and learning discussions!');
+    console.log('📊 Perfect for educational discussions and learning!');
     
     // Generate HTML Report for Testability Failure Analysis
     console.log('\n🎨 GENERATING INTERACTIVE HTML REPORT FOR FAILURE ANALYSIS...');
@@ -294,7 +294,7 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
           successfulAnalyses: Object.values(results).filter(r => r.status === 'completed').length,
           failedAnalyses: Object.values(results).filter(r => r.status === 'failed').length,
           averageScore: Math.round(Object.values(results).reduce((sum, r) => sum + r.score, 0) / Object.values(results).length),
-          overallGrade: 'F (Conference Demo - Expected Failures)'
+          overallGrade: 'F (Educational Demo - Expected Failures)'
         },
         userResults: results,
         teachingPoints: [
@@ -302,12 +302,7 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
           'Error states reduce controllability and unbugginess', 
           'Visual problems impact observability',
           'Different failures reveal different testability weaknesses'
-        ],
-        conferenceNotes: {
-          purpose: 'Demonstrate testability challenges for educational purposes',
-          expectedOutcome: 'Show how different failure types map to testability principles',
-          audienceValue: 'Learn to identify and categorize testability issues'
-        }
+        ]
       };
       
       // Generate HTML report
@@ -315,7 +310,7 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
       
       console.log(`\n🎨 HTML Report Generated: ${htmlReportPath}`);
       console.log('📊 Open in browser to view interactive failure analysis');
-      console.log('🎤 Perfect for conference presentations and workshops!');
+      console.log('🎤 Perfect for educational workshops and learning!');
       
     } catch (htmlError) {
       console.log(`\n⚠️  HTML report generation failed: ${htmlError.message}`);
@@ -352,7 +347,7 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
       }
     };
     
-    console.log('\n📊 IMPACT MATRIX FOR CONFERENCE PRESENTATION:');
+    console.log('\n📊 IMPACT MATRIX FOR EDUCATIONAL PURPOSES:');
     console.log('=' .repeat(80));
     
     for (const [user, impacts] of Object.entries(impactMatrix)) {
@@ -368,7 +363,7 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
       });
     }
     
-    console.log('\n🎓 CONFERENCE PRESENTATION TALKING POINTS:');
+    console.log('\n🎓 EDUCATIONAL TALKING POINTS:');
     console.log('   1. Each problematic user type reveals specific testability weaknesses');
     console.log('   2. Performance issues primarily affect stability and timing');
     console.log('   3. Error conditions reduce system controllability');
@@ -376,20 +371,20 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
     console.log('   5. The 10 testability principles help categorize and understand failures');
     console.log('   6. Improving intrinsic testability prevents these common issues');
     
-    // Save matrix for presentation materials
+    // Save matrix for educational materials
     const matrixPath = `tests/reports/testability-impact-matrix-${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
     require('fs').writeFileSync(matrixPath, JSON.stringify({
       timestamp: new Date().toISOString(),
       impactMatrix: impactMatrix,
-      presentationNotes: {
+      educationalNotes: {
         objective: 'Demonstrate how different failure types map to testability principles',
-        audience: 'Conference attendees learning about intrinsic testability',
+        audience: 'Students and professionals learning about intrinsic testability',
         keyMessage: 'Understanding testability principles helps diagnose and prevent common testing challenges'
       }
     }, null, 2));
     
     console.log(`\n💾 Impact matrix saved: ${matrixPath}`);
-    console.log('🎤 Ready for conference presentation!');
+    console.log('🎤 Ready for educational use!');
     
     // This test always passes - it's educational, not functional
     expect(true).toBe(true);
@@ -400,7 +395,7 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
 });
 
 /**
- * 📋 Conference Presentation Guide:
+ * 📋 Educational Usage Guide:
  * 
  * 1. Run this test file to demonstrate real testability challenges
  * 2. Show how different users reveal different principle weaknesses  
