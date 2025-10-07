@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-10-07T17:38:27.652Z",
+  "impactMatrix": {
+    "performance_glitch_user": {
+      "Algorithmic Stability": "HIGH - Inconsistent timing and performance",
+      "Controllability": "HIGH - Unpredictable response times",
+      "Observability": "MEDIUM - Difficult to monitor performance states",
+      "Unbugginess": "MEDIUM - Performance issues can mask or cause bugs",
+      "Algorithmic Simplicity": "LOW - Performance complexity adds layers"
+    },
+    "error_user": {
+      "Unbugginess": "HIGH - Error states interfere with testing",
+      "Controllability": "HIGH - Cannot reach desired application states",
+      "Explainability": "HIGH - Poor error messages reduce understanding",
+      "Observability": "MEDIUM - Error states may not be clearly visible",
+      "Algorithmic Transparency": "MEDIUM - Error handling logic may be opaque"
+    },
+    "visual_user": {
+      "Observability": "HIGH - Visual elements render unpredictably",
+      "Decomposability": "MEDIUM - Visual components may be tightly coupled",
+      "Similarity": "MEDIUM - Inconsistent visual patterns",
+      "Algorithmic Simplicity": "MEDIUM - Complex visual behaviors",
+      "Explainability": "LOW - Visual issues may not have clear explanations"
+    }
+  },
+  "presentationNotes": {
+    "objective": "Demonstrate how different failure types map to testability principles",
+    "audience": "Conference attendees learning about intrinsic testability",
+    "keyMessage": "Understanding testability principles helps diagnose and prevent common testing challenges"
+  }
+}

@@ -19,6 +19,7 @@
 
 const { test, expect } = require('@playwright/test');
 const { ComprehensiveTestabilityAnalyzer } = require('../comprehensive-testability-analyzer');
+const { TestabilityHTMLReportGenerator } = require('../html-report-generator');
 
 test.describe('🚨 Testability Failure Examples - Learning Opportunities', () => {
   let analyzer;
@@ -41,7 +42,7 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
       // Demonstrate the performance issues
       const startTime = Date.now();
       
-      const result = await analyzer.analyzeUser(page, 'performance_glitch_user');
+      const result = await analyzer.runCompleteAnalysis(page, 'performance_glitch_user');
       
       const endTime = Date.now();
       const duration = endTime - startTime;
@@ -84,7 +85,7 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
     console.log('   - Explainability: Error messages may be unclear');
     
     try {
-      const result = await analyzer.analyzeUser(page, 'error_user');
+      const result = await analyzer.runCompleteAnalysis(page, 'error_user');
       
       if (result && result.overall) {
         console.log(`📊 Score: ${result.overall}/100`);
@@ -128,7 +129,7 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
       // Set longer timeout for visual user issues
       test.setTimeout(45000);
       
-      const result = await analyzer.analyzeUser(page, 'visual_user');
+      const result = await analyzer.runCompleteAnalysis(page, 'visual_user');
       
       if (result && result.overall) {
         console.log(`📊 Score: ${result.overall}/100`);
@@ -192,12 +193,13 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
     for (const user of problematicUsers) {
       console.log(`\n🔍 Testing ${user.name}...`);
       
+      const startTime = Date.now();
+      
       try {
         // Set specific timeout for each user type
-        const startTime = Date.now();
         
         const result = await Promise.race([
-          analyzer.analyzeUser(page, user.name),
+          analyzer.runCompleteAnalysis(page, user.name),
           new Promise((_, reject) => 
             setTimeout(() => reject(new Error(`Timeout after ${user.timeout}ms`)), user.timeout)
           )
@@ -275,6 +277,50 @@ test.describe('🚨 Testability Failure Examples - Learning Opportunities', () =
     
     console.log(`\n💾 Failure analysis report saved: ${reportPath}`);
     console.log('📊 Perfect for conference presentation and learning discussions!');
+    
+    // Generate HTML Report for Testability Failure Analysis
+    console.log('\n🎨 GENERATING INTERACTIVE HTML REPORT FOR FAILURE ANALYSIS...');
+    
+    try {
+      const htmlGenerator = new TestabilityHTMLReportGenerator();
+      
+      // Create a comprehensive failure report structure
+      const failureReportData = {
+        timestamp: new Date().toISOString(),
+        browser: browserName,
+        testType: 'Testability Failure Analysis',
+        summary: {
+          totalUsersAnalyzed: problematicUsers.length,
+          successfulAnalyses: Object.values(results).filter(r => r.status === 'completed').length,
+          failedAnalyses: Object.values(results).filter(r => r.status === 'failed').length,
+          averageScore: Math.round(Object.values(results).reduce((sum, r) => sum + r.score, 0) / Object.values(results).length),
+          overallGrade: 'F (Conference Demo - Expected Failures)'
+        },
+        userResults: results,
+        teachingPoints: [
+          'Performance issues affect algorithmic stability',
+          'Error states reduce controllability and unbugginess', 
+          'Visual problems impact observability',
+          'Different failures reveal different testability weaknesses'
+        ],
+        conferenceNotes: {
+          purpose: 'Demonstrate testability challenges for educational purposes',
+          expectedOutcome: 'Show how different failure types map to testability principles',
+          audienceValue: 'Learn to identify and categorize testability issues'
+        }
+      };
+      
+      // Generate HTML report
+      const htmlReportPath = await htmlGenerator.generateFailureAnalysisReport(failureReportData);
+      
+      console.log(`\n🎨 HTML Report Generated: ${htmlReportPath}`);
+      console.log('📊 Open in browser to view interactive failure analysis');
+      console.log('🎤 Perfect for conference presentations and workshops!');
+      
+    } catch (htmlError) {
+      console.log(`\n⚠️  HTML report generation failed: ${htmlError.message}`);
+      console.log('📊 JSON report still available for analysis');
+    }
   });
 
   test('Testability Principle Impact Matrix - Failure Mapping', async ({ page }) => {
