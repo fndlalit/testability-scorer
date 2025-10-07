@@ -1,0 +1,1352 @@
+{
+  "config": {
+    "configFile": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/playwright.config.js",
+    "rootDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/global-setup.js",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "Microsoft Edge",
+        "name": "Microsoft Edge",
+        "testDir": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "complete-10-principle-testability.spec.js",
+      "file": "complete-10-principle-testability.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "🎯 Complete 10-Principle Testability Assessment",
+          "file": "complete-10-principle-testability.spec.js",
+          "line": 26,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Complete Analysis: All SauceDemo User Types - 10 Principles",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 35630,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n🚀 STARTING COMPLETE 10-PRINCIPLE TESTABILITY ASSESSMENT\n"
+                        },
+                        {
+                          "text": "🤖 AI-Enhanced Framework: Playwright 1.49.0\n"
+                        },
+                        {
+                          "text": "🌐 Browser: chromium\n"
+                        },
+                        {
+                          "text": "📊 Analyzing: 10 Testability Principles per User Type\n"
+                        },
+                        {
+                          "text": "====================================================================================================\n"
+                        },
+                        {
+                          "text": "\n🎯 Processing standard_user...\n"
+                        },
+                        {
+                          "text": "\n🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: standard_user\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "✅ standard_user: Successfully logged in, analyzing all 10 principles...\n"
+                        },
+                        {
+                          "text": "🔍 Analyzing Observability...\n"
+                        },
+                        {
+                          "text": "  ✅ Observability: 83/100\n"
+                        },
+                        {
+                          "text": "    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 15/15\n"
+                        },
+                        {
+                          "text": "🎮 Analyzing Controllability...\n"
+                        },
+                        {
+                          "text": "  ✅ Controllability: 80/100\n"
+                        },
+                        {
+                          "text": "    Input: 10/30, State: 25/25, Determinism: 25/25, Reliability: 20/20\n"
+                        },
+                        {
+                          "text": "🧩 Analyzing Algorithmic Simplicity...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Simplicity: 80/100\n"
+                        },
+                        {
+                          "text": "    Clarity: 35/35, Complexity: 35/35, Predictability: 10/30\n"
+                        },
+                        {
+                          "text": "🔬 Analyzing Algorithmic Transparency...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Transparency: 25/100\n"
+                        },
+                        {
+                          "text": "    Visibility: 0/40, Understanding: 0/35, BlackBox: 25/25\n"
+                        },
+                        {
+                          "text": "⚖️ Analyzing Algorithmic Stability...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Stability: 100/100\n"
+                        },
+                        {
+                          "text": "    Resilience: 35/35, Maintainability: 35/35, Consistency: 30/30\n"
+                        },
+                        {
+                          "text": "📖 Analyzing Explainability...\n"
+                        },
+                        {
+                          "text": "  ✅ Explainability: 25/100\n"
+                        },
+                        {
+                          "text": "    Clarity: 10/35, Documentation: 15/35, Structure: 0/30\n"
+                        },
+                        {
+                          "text": "🐛 Analyzing Unbugginess...\n"
+                        },
+                        {
+                          "text": "  ✅ Unbugginess: 85/100\n"
+                        },
+                        {
+                          "text": "    Errors: 40/40, Handling: 20/35, Robustness: 25/25\n"
+                        },
+                        {
+                          "text": "📏 Analyzing Smallness...\n"
+                        },
+                        {
+                          "text": "  ✅ Smallness: 100/100\n"
+                        },
+                        {
+                          "text": "    Size: 40/40, Scope: 35/35, Management: 25/25\n"
+                        },
+                        {
+                          "text": "🔧 Analyzing Decomposability...\n"
+                        },
+                        {
+                          "text": "  ✅ Decomposability: 86/100\n"
+                        },
+                        {
+                          "text": "    Separation: 40/40, Isolation: 35/35, Modular: 11/25\n"
+                        },
+                        {
+                          "text": "🎯 Analyzing Similarity...\n"
+                        },
+                        {
+                          "text": "  ✅ Similarity: 64/100\n"
+                        },
+                        {
+                          "text": "    Patterns: 24/40, Technology: 35/35, Conventions: 5/25\n"
+                        },
+                        {
+                          "text": "\n🎯 OVERALL SCORE for standard_user: 73/100\n"
+                        },
+                        {
+                          "text": "🤖 AI Recommendations: 2 suggestions generated\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "\n🎯 Processing locked_out_user...\n"
+                        },
+                        {
+                          "text": "\n🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: locked_out_user\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "⚠️ locked_out_user: Login failed or blocked\n"
+                        },
+                        {
+                          "text": "\n🎯 Processing problem_user...\n"
+                        },
+                        {
+                          "text": "\n🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: problem_user\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "✅ problem_user: Successfully logged in, analyzing all 10 principles...\n"
+                        },
+                        {
+                          "text": "🔍 Analyzing Observability...\n"
+                        },
+                        {
+                          "text": "  ✅ Observability: 83/100\n"
+                        },
+                        {
+                          "text": "    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 15/15\n"
+                        },
+                        {
+                          "text": "🎮 Analyzing Controllability...\n"
+                        },
+                        {
+                          "text": "  ✅ Controllability: 80/100\n"
+                        },
+                        {
+                          "text": "    Input: 10/30, State: 25/25, Determinism: 25/25, Reliability: 20/20\n"
+                        },
+                        {
+                          "text": "🧩 Analyzing Algorithmic Simplicity...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Simplicity: 80/100\n"
+                        },
+                        {
+                          "text": "    Clarity: 35/35, Complexity: 35/35, Predictability: 10/30\n"
+                        },
+                        {
+                          "text": "🔬 Analyzing Algorithmic Transparency...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Transparency: 25/100\n"
+                        },
+                        {
+                          "text": "    Visibility: 0/40, Understanding: 0/35, BlackBox: 25/25\n"
+                        },
+                        {
+                          "text": "⚖️ Analyzing Algorithmic Stability...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Stability: 100/100\n"
+                        },
+                        {
+                          "text": "    Resilience: 35/35, Maintainability: 35/35, Consistency: 30/30\n"
+                        },
+                        {
+                          "text": "📖 Analyzing Explainability...\n"
+                        },
+                        {
+                          "text": "  ✅ Explainability: 25/100\n"
+                        },
+                        {
+                          "text": "    Clarity: 10/35, Documentation: 15/35, Structure: 0/30\n"
+                        },
+                        {
+                          "text": "🐛 Analyzing Unbugginess...\n"
+                        },
+                        {
+                          "text": "  ✅ Unbugginess: 85/100\n"
+                        },
+                        {
+                          "text": "    Errors: 40/40, Handling: 20/35, Robustness: 25/25\n"
+                        },
+                        {
+                          "text": "📏 Analyzing Smallness...\n"
+                        },
+                        {
+                          "text": "  ✅ Smallness: 100/100\n"
+                        },
+                        {
+                          "text": "    Size: 40/40, Scope: 35/35, Management: 25/25\n"
+                        },
+                        {
+                          "text": "🔧 Analyzing Decomposability...\n"
+                        },
+                        {
+                          "text": "  ✅ Decomposability: 86/100\n"
+                        },
+                        {
+                          "text": "    Separation: 40/40, Isolation: 35/35, Modular: 11/25\n"
+                        },
+                        {
+                          "text": "🎯 Analyzing Similarity...\n"
+                        },
+                        {
+                          "text": "  ✅ Similarity: 64/100\n"
+                        },
+                        {
+                          "text": "    Patterns: 24/40, Technology: 35/35, Conventions: 5/25\n"
+                        },
+                        {
+                          "text": "\n🎯 OVERALL SCORE for problem_user: 73/100\n"
+                        },
+                        {
+                          "text": "🤖 AI Recommendations: 2 suggestions generated\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "\n🎯 Processing performance_glitch_user...\n"
+                        },
+                        {
+                          "text": "\n🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: performance_glitch_user\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "✅ performance_glitch_user: Successfully logged in, analyzing all 10 principles...\n"
+                        },
+                        {
+                          "text": "🔍 Analyzing Observability...\n"
+                        },
+                        {
+                          "text": "  ✅ Observability: 83/100\n"
+                        },
+                        {
+                          "text": "    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 15/15\n"
+                        },
+                        {
+                          "text": "🎮 Analyzing Controllability...\n"
+                        },
+                        {
+                          "text": "  ✅ Controllability: 80/100\n"
+                        },
+                        {
+                          "text": "    Input: 10/30, State: 25/25, Determinism: 25/25, Reliability: 20/20\n"
+                        },
+                        {
+                          "text": "🧩 Analyzing Algorithmic Simplicity...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Simplicity: 80/100\n"
+                        },
+                        {
+                          "text": "    Clarity: 35/35, Complexity: 35/35, Predictability: 10/30\n"
+                        },
+                        {
+                          "text": "🔬 Analyzing Algorithmic Transparency...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Transparency: 25/100\n"
+                        },
+                        {
+                          "text": "    Visibility: 0/40, Understanding: 0/35, BlackBox: 25/25\n"
+                        },
+                        {
+                          "text": "⚖️ Analyzing Algorithmic Stability...\n"
+                        },
+                        {
+                          "text": "\n📊 Test Analysis: Complete Analysis: All SauceDemo User Types - 10 Principles\n"
+                        },
+                        {
+                          "text": "   Status: timedOut\n"
+                        },
+                        {
+                          "text": "   Duration: 30001ms\n"
+                        },
+                        {
+                          "text": "  ❌ Algorithmic Stability analysis failed: page.reload: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for navigation until \"load\"\u001b[22m\n\u001b[2m    - navigated to \"https://www.saucedemo.com/inventory.html\"\u001b[22m\n\n"
+                        },
+                        {
+                          "text": "📖 Analyzing Explainability...\n"
+                        },
+                        {
+                          "text": "  ❌ Explainability analysis failed: locator.count: Target page, context or browser has been closed\n"
+                        },
+                        {
+                          "text": "🐛 Analyzing Unbugginess...\n"
+                        },
+                        {
+                          "text": "  ❌ Unbugginess analysis failed: page.evaluate: Target page, context or browser has been closed\n"
+                        },
+                        {
+                          "text": "📏 Analyzing Smallness...\n"
+                        },
+                        {
+                          "text": "  ❌ Smallness analysis failed: locator.count: Target page, context or browser has been closed\n"
+                        },
+                        {
+                          "text": "🔧 Analyzing Decomposability...\n"
+                        },
+                        {
+                          "text": "  ❌ Decomposability analysis failed: locator.count: Target page, context or browser has been closed\n"
+                        },
+                        {
+                          "text": "🎯 Analyzing Similarity...\n"
+                        },
+                        {
+                          "text": "  ❌ Similarity analysis failed: page.evaluate: Target page, context or browser has been closed\n"
+                        },
+                        {
+                          "text": "\n🎯 OVERALL SCORE for performance_glitch_user: 54/100\n"
+                        },
+                        {
+                          "text": "🤖 AI Recommendations: 6 suggestions generated\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "❌ Error processing performance_glitch_user: page.screenshot: Target page, context or browser has been closed\n"
+                        },
+                        {
+                          "text": "\n🎯 Processing error_user...\n"
+                        },
+                        {
+                          "text": "\n🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: error_user\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "❌ Complete analysis error for error_user: page.goto: Target page, context or browser has been closed\n"
+                        },
+                        {
+                          "text": "❌ Error processing error_user: page.waitForTimeout: Target page, context or browser has been closed\n"
+                        },
+                        {
+                          "text": "\n🎯 Processing visual_user...\n"
+                        },
+                        {
+                          "text": "\n🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: visual_user\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "❌ Complete analysis error for visual_user: page.goto: Target page, context or browser has been closed\n"
+                        },
+                        {
+                          "text": "❌ Error processing visual_user: page.waitForTimeout: Target page, context or browser has been closed\n"
+                        },
+                        {
+                          "text": "\n📊 COMPREHENSIVE 10-PRINCIPLE TESTABILITY REPORT\nGenerated: 2025-10-07T14:37:20.875Z\n🤖 AI-Enhanced Analysis Framework\n========================================================================================================================\n\nUSER TYPE        | OVERALL | OBS | CTL | SIM | TRA | STA | EXP | UNB | SMA | DEC | SIM | GRADE\n------------------------------------------------------------------------------------------------------------------------\nstandard_user    |      73 |  83 |  80 |  80 |  25 | 100 |  25 |  85 | 100 |  86 |  64 | C (Average)\nproblem_user     |      73 |  83 |  80 |  80 |  25 | 100 |  25 |  85 | 100 |  86 |  64 | C (Average)\nperformance_glitch_user |      54 |  83 |  80 |  80 |  25 |  40 |  25 |  60 |  45 |  50 |  55 | F (Poor)\n\n🤖 AI COMPREHENSIVE ANALYSIS:\n------------------------------------------------------------\nAverage Testability Score: 67/100\nBest Performance: standard_user (73/100)\nNeeds Improvement: performance_glitch_user (54/100)\nScore Variance: 19 points\n\n🎯 PRINCIPLE STRENGTH ANALYSIS (Average Scores):\n------------------------------------------------------------\nobservability            :  83/100 🟢 Strong\nsmallness                :  82/100 🟢 Strong\ncontrollability          :  80/100 🟢 Strong\nalgorithmicSimplicity    :  80/100 🟢 Strong\nalgorithmicStability     :  80/100 🟢 Strong\nunbugginess              :  77/100 🟡 Moderate\ndecomposability          :  74/100 🟡 Moderate\nsimilarity               :  61/100 🟡 Moderate\nalgorithmicTransparency  :  25/100 🔴 Weak\nexplainability           :  25/100 🔴 Weak\n\n🤖 AI-POWERED IMPROVEMENT RECOMMENDATIONS:\n------------------------------------------------------------\n\n🚨 CRITICAL PRIORITY:\n• ALGORITHMICTRANSPARENCY: Add progress indicators, improve feedback messages, and reduce black-box operations\n  AI Reasoning: AI analysis shows algorithmicTransparency scoring 25/100, indicating need for improvement\n\n• EXPLAINABILITY: Add semantic HTML elements, implement ARIA labels, and improve documentation\n  AI Reasoning: AI analysis shows explainability scoring 25/100, indicating need for improvement\n\n• ALGORITHMICTRANSPARENCY: Add progress indicators, improve feedback messages, and reduce black-box operations\n  AI Reasoning: AI analysis shows algorithmicTransparency scoring 25/100, indicating need for improvement\n\n• EXPLAINABILITY: Add semantic HTML elements, implement ARIA labels, and improve documentation\n  AI Reasoning: AI analysis shows explainability scoring 25/100, indicating need for improvement\n\n• ALGORITHMICTRANSPARENCY: Add progress indicators, improve feedback messages, and reduce black-box operations\n  AI Reasoning: AI analysis shows algorithmicTransparency scoring 25/100, indicating need for improvement\n\n• EXPLAINABILITY: Add semantic HTML elements, implement ARIA labels, and improve documentation\n  AI Reasoning: AI analysis shows explainability scoring 25/100, indicating need for improvement\n\n\n⚠️ HIGH PRIORITY:\n• ALGORITHMICSTABILITY: Implement consistent data-test patterns and improve element stability\n  AI Reasoning: AI analysis shows algorithmicStability scoring 40/100, indicating need for improvement\n\n• SMALLNESS: Break down large components, reduce page size, and improve modularity\n  AI Reasoning: AI analysis shows smallness scoring 45/100, indicating need for improvement\n\n\n"
+                        },
+                        {
+                          "text": "\n🎨 HTML Report Generated: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/testability-report-2025-10-07T14-38-02-752Z.html\n"
+                        },
+                        {
+                          "text": "📊 Open in browser to view interactive testability analysis\n"
+                        },
+                        {
+                          "text": "\n💾 Complete Analysis Results Saved:\n"
+                        },
+                        {
+                          "text": "   📊 Detailed Data: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/complete-testability-chromium-2025-10-07T14-38-02-712Z.json\n"
+                        },
+                        {
+                          "text": "   📄 Text Report: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/complete-testability-chromium-2025-10-07T14-38-02-712Z-report.txt\n"
+                        },
+                        {
+                          "text": "   🎨 Interactive HTML Report: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/testability-report-2025-10-07T14-38-02-752Z.html\n"
+                        },
+                        {
+                          "text": "\n🌐 Open the HTML report in your browser for interactive analysis!\n"
+                        },
+                        {
+                          "text": "\n🎯 COMPLETE ASSESSMENT SUMMARY:\n"
+                        },
+                        {
+                          "text": "   📊 Average Score: 67/100\n"
+                        },
+                        {
+                          "text": "   ✅ Successful Analyses: 3/6\n"
+                        },
+                        {
+                          "text": "   🎯 Principles Evaluated: 10 per user type\n"
+                        },
+                        {
+                          "text": "   🤖 AI Recommendations: 6 generated\n"
+                        },
+                        {
+                          "text": "\n🎉 Complete 10-Principle Analysis Successful!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-07T14:37:20.836Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/test-results/complete-10-principle-test-28ce6--User-Types---10-Principles-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/test-results/complete-10-principle-test-28ce6--User-Types---10-Principles-chromium/video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "50e97d1bd25f0d15febd-0869c0fec7f618a99862",
+              "file": "complete-10-principle-testability.spec.js",
+              "line": 33,
+              "column": 3
+            },
+            {
+              "title": "Detailed Principle Analysis: Standard User Deep Dive",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 15522,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n🔬 DETAILED 10-PRINCIPLE DEEP DIVE: Standard User\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "\n🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: standard_user\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "✅ standard_user: Successfully logged in, analyzing all 10 principles...\n"
+                        },
+                        {
+                          "text": "🔍 Analyzing Observability...\n"
+                        },
+                        {
+                          "text": "  ✅ Observability: 83/100\n"
+                        },
+                        {
+                          "text": "    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 15/15\n"
+                        },
+                        {
+                          "text": "🎮 Analyzing Controllability...\n"
+                        },
+                        {
+                          "text": "  ✅ Controllability: 80/100\n"
+                        },
+                        {
+                          "text": "    Input: 10/30, State: 25/25, Determinism: 25/25, Reliability: 20/20\n"
+                        },
+                        {
+                          "text": "🧩 Analyzing Algorithmic Simplicity...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Simplicity: 80/100\n"
+                        },
+                        {
+                          "text": "    Clarity: 35/35, Complexity: 35/35, Predictability: 10/30\n"
+                        },
+                        {
+                          "text": "🔬 Analyzing Algorithmic Transparency...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Transparency: 25/100\n"
+                        },
+                        {
+                          "text": "    Visibility: 0/40, Understanding: 0/35, BlackBox: 25/25\n"
+                        },
+                        {
+                          "text": "⚖️ Analyzing Algorithmic Stability...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Stability: 100/100\n"
+                        },
+                        {
+                          "text": "    Resilience: 35/35, Maintainability: 35/35, Consistency: 30/30\n"
+                        },
+                        {
+                          "text": "📖 Analyzing Explainability...\n"
+                        },
+                        {
+                          "text": "  ✅ Explainability: 25/100\n"
+                        },
+                        {
+                          "text": "    Clarity: 10/35, Documentation: 15/35, Structure: 0/30\n"
+                        },
+                        {
+                          "text": "🐛 Analyzing Unbugginess...\n"
+                        },
+                        {
+                          "text": "  ✅ Unbugginess: 85/100\n"
+                        },
+                        {
+                          "text": "    Errors: 40/40, Handling: 20/35, Robustness: 25/25\n"
+                        },
+                        {
+                          "text": "📏 Analyzing Smallness...\n"
+                        },
+                        {
+                          "text": "  ✅ Smallness: 100/100\n"
+                        },
+                        {
+                          "text": "    Size: 40/40, Scope: 35/35, Management: 25/25\n"
+                        },
+                        {
+                          "text": "🔧 Analyzing Decomposability...\n"
+                        },
+                        {
+                          "text": "  ✅ Decomposability: 86/100\n"
+                        },
+                        {
+                          "text": "    Separation: 40/40, Isolation: 35/35, Modular: 11/25\n"
+                        },
+                        {
+                          "text": "🎯 Analyzing Similarity...\n"
+                        },
+                        {
+                          "text": "  ✅ Similarity: 64/100\n"
+                        },
+                        {
+                          "text": "    Patterns: 24/40, Technology: 35/35, Conventions: 5/25\n"
+                        },
+                        {
+                          "text": "\n🎯 OVERALL SCORE for standard_user: 73/100\n"
+                        },
+                        {
+                          "text": "🤖 AI Recommendations: 2 suggestions generated\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "\n📊 DETAILED PRINCIPLE BREAKDOWN:\n"
+                        },
+                        {
+                          "text": "--------------------------------------------------\n"
+                        },
+                        {
+                          "text": "🔍 Observability            :  83/100 🟢\n"
+                        },
+                        {
+                          "text": "🎮 Controllability          :  80/100 🟢\n"
+                        },
+                        {
+                          "text": "🧩 Algorithmic Simplicity   :  80/100 🟢\n"
+                        },
+                        {
+                          "text": "🔬 Algorithmic Transparency :  25/100 🔴\n"
+                        },
+                        {
+                          "text": "⚖️ Algorithmic Stability    : 100/100 🟢\n"
+                        },
+                        {
+                          "text": "📖 Explainability           :  25/100 🔴\n"
+                        },
+                        {
+                          "text": "🐛 Unbugginess              :  85/100 🟢\n"
+                        },
+                        {
+                          "text": "📏 Smallness                : 100/100 🟢\n"
+                        },
+                        {
+                          "text": "🔧 Decomposability          :  86/100 🟢\n"
+                        },
+                        {
+                          "text": "🎯 Similarity               :  64/100 🟡\n"
+                        },
+                        {
+                          "text": "\n🎯 Overall Score: 73/100 (C (Average))\n"
+                        },
+                        {
+                          "text": "\n🔍 DETAILED METRICS SAMPLE:\n"
+                        },
+                        {
+                          "text": "------------------------------\n"
+                        },
+                        {
+                          "text": "Observability Metrics: {\n  stateVisibility: \u001b[33m18\u001b[39m,\n  dataTestAttributes: \u001b[33m25\u001b[39m,\n  errorVisibility: \u001b[33m10\u001b[39m,\n  visualObservability: \u001b[33m15\u001b[39m,\n  networkObservability: \u001b[33m15\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "Controllability Metrics: {\n  inputPrecision: \u001b[33m10\u001b[39m,\n  stateControl: \u001b[33m25\u001b[39m,\n  determinism: \u001b[33m25\u001b[39m,\n  interactionReliability: \u001b[33m20\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "\n🤖 AI RECOMMENDATIONS:\n"
+                        },
+                        {
+                          "text": "------------------------------\n"
+                        },
+                        {
+                          "text": "1. CRITICAL: algorithmicTransparency\n"
+                        },
+                        {
+                          "text": "   Add progress indicators, improve feedback messages, and reduce black-box operations\n"
+                        },
+                        {
+                          "text": "   AI Reasoning: AI analysis shows algorithmicTransparency scoring 25/100, indicating need for improvement\n\n"
+                        },
+                        {
+                          "text": "2. CRITICAL: explainability\n"
+                        },
+                        {
+                          "text": "   Add semantic HTML elements, implement ARIA labels, and improve documentation\n"
+                        },
+                        {
+                          "text": "   AI Reasoning: AI analysis shows explainability scoring 25/100, indicating need for improvement\n\n"
+                        },
+                        {
+                          "text": "\n✅ Detailed Analysis Complete!\n"
+                        },
+                        {
+                          "text": "\n🎨 HTML Report Generated: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/testability-report-2025-10-07T14-37-40-770Z.html\n"
+                        },
+                        {
+                          "text": "📊 Open in browser to view interactive testability analysis\n"
+                        },
+                        {
+                          "text": "\n🎨 Detailed HTML Report: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/testability-report-2025-10-07T14-37-40-770Z.html\n"
+                        },
+                        {
+                          "text": "\n📊 Test Analysis: Detailed Principle Analysis: Standard User Deep Dive\n"
+                        },
+                        {
+                          "text": "   Status: passed\n"
+                        },
+                        {
+                          "text": "   Duration: 15380ms\n"
+                        },
+                        {
+                          "text": "   ✅ Success: Complete testability analysis executed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-07T14:37:20.872Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "50e97d1bd25f0d15febd-2c0e60c41f80d1968526",
+              "file": "complete-10-principle-testability.spec.js",
+              "line": 145,
+              "column": 3
+            },
+            {
+              "title": "Comparative Analysis: Problem User vs Standard User",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 14094,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n🆚 COMPARATIVE 10-PRINCIPLE ANALYSIS\n"
+                        },
+                        {
+                          "text": "============================================================\n"
+                        },
+                        {
+                          "text": "\n📊 Analyzing standard_user...\n"
+                        },
+                        {
+                          "text": "\n🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: standard_user\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "✅ standard_user: Successfully logged in, analyzing all 10 principles...\n"
+                        },
+                        {
+                          "text": "🔍 Analyzing Observability...\n"
+                        },
+                        {
+                          "text": "  ✅ Observability: 83/100\n"
+                        },
+                        {
+                          "text": "    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 15/15\n"
+                        },
+                        {
+                          "text": "🎮 Analyzing Controllability...\n"
+                        },
+                        {
+                          "text": "  ✅ Controllability: 80/100\n"
+                        },
+                        {
+                          "text": "    Input: 10/30, State: 25/25, Determinism: 25/25, Reliability: 20/20\n"
+                        },
+                        {
+                          "text": "🧩 Analyzing Algorithmic Simplicity...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Simplicity: 80/100\n"
+                        },
+                        {
+                          "text": "    Clarity: 35/35, Complexity: 35/35, Predictability: 10/30\n"
+                        },
+                        {
+                          "text": "🔬 Analyzing Algorithmic Transparency...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Transparency: 25/100\n"
+                        },
+                        {
+                          "text": "    Visibility: 0/40, Understanding: 0/35, BlackBox: 25/25\n"
+                        },
+                        {
+                          "text": "⚖️ Analyzing Algorithmic Stability...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Stability: 100/100\n"
+                        },
+                        {
+                          "text": "    Resilience: 35/35, Maintainability: 35/35, Consistency: 30/30\n"
+                        },
+                        {
+                          "text": "📖 Analyzing Explainability...\n"
+                        },
+                        {
+                          "text": "  ✅ Explainability: 25/100\n"
+                        },
+                        {
+                          "text": "    Clarity: 10/35, Documentation: 15/35, Structure: 0/30\n"
+                        },
+                        {
+                          "text": "🐛 Analyzing Unbugginess...\n"
+                        },
+                        {
+                          "text": "  ✅ Unbugginess: 85/100\n"
+                        },
+                        {
+                          "text": "    Errors: 40/40, Handling: 20/35, Robustness: 25/25\n"
+                        },
+                        {
+                          "text": "📏 Analyzing Smallness...\n"
+                        },
+                        {
+                          "text": "  ✅ Smallness: 100/100\n"
+                        },
+                        {
+                          "text": "    Size: 40/40, Scope: 35/35, Management: 25/25\n"
+                        },
+                        {
+                          "text": "🔧 Analyzing Decomposability...\n"
+                        },
+                        {
+                          "text": "  ✅ Decomposability: 86/100\n"
+                        },
+                        {
+                          "text": "    Separation: 40/40, Isolation: 35/35, Modular: 11/25\n"
+                        },
+                        {
+                          "text": "🎯 Analyzing Similarity...\n"
+                        },
+                        {
+                          "text": "  ✅ Similarity: 64/100\n"
+                        },
+                        {
+                          "text": "    Patterns: 24/40, Technology: 35/35, Conventions: 5/25\n"
+                        },
+                        {
+                          "text": "\n🎯 OVERALL SCORE for standard_user: 73/100\n"
+                        },
+                        {
+                          "text": "🤖 AI Recommendations: 2 suggestions generated\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "\n📊 Analyzing problem_user...\n"
+                        },
+                        {
+                          "text": "\n🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: problem_user\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "✅ problem_user: Successfully logged in, analyzing all 10 principles...\n"
+                        },
+                        {
+                          "text": "🔍 Analyzing Observability...\n"
+                        },
+                        {
+                          "text": "  ✅ Observability: 83/100\n"
+                        },
+                        {
+                          "text": "    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 15/15\n"
+                        },
+                        {
+                          "text": "🎮 Analyzing Controllability...\n"
+                        },
+                        {
+                          "text": "  ✅ Controllability: 80/100\n"
+                        },
+                        {
+                          "text": "    Input: 10/30, State: 25/25, Determinism: 25/25, Reliability: 20/20\n"
+                        },
+                        {
+                          "text": "🧩 Analyzing Algorithmic Simplicity...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Simplicity: 80/100\n"
+                        },
+                        {
+                          "text": "    Clarity: 35/35, Complexity: 35/35, Predictability: 10/30\n"
+                        },
+                        {
+                          "text": "🔬 Analyzing Algorithmic Transparency...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Transparency: 25/100\n"
+                        },
+                        {
+                          "text": "    Visibility: 0/40, Understanding: 0/35, BlackBox: 25/25\n"
+                        },
+                        {
+                          "text": "⚖️ Analyzing Algorithmic Stability...\n"
+                        },
+                        {
+                          "text": "  ✅ Algorithmic Stability: 100/100\n"
+                        },
+                        {
+                          "text": "    Resilience: 35/35, Maintainability: 35/35, Consistency: 30/30\n"
+                        },
+                        {
+                          "text": "📖 Analyzing Explainability...\n"
+                        },
+                        {
+                          "text": "  ✅ Explainability: 25/100\n"
+                        },
+                        {
+                          "text": "    Clarity: 10/35, Documentation: 15/35, Structure: 0/30\n"
+                        },
+                        {
+                          "text": "🐛 Analyzing Unbugginess...\n"
+                        },
+                        {
+                          "text": "  ✅ Unbugginess: 85/100\n"
+                        },
+                        {
+                          "text": "    Errors: 40/40, Handling: 20/35, Robustness: 25/25\n"
+                        },
+                        {
+                          "text": "📏 Analyzing Smallness...\n"
+                        },
+                        {
+                          "text": "  ✅ Smallness: 100/100\n"
+                        },
+                        {
+                          "text": "    Size: 40/40, Scope: 35/35, Management: 25/25\n"
+                        },
+                        {
+                          "text": "🔧 Analyzing Decomposability...\n"
+                        },
+                        {
+                          "text": "  ✅ Decomposability: 86/100\n"
+                        },
+                        {
+                          "text": "    Separation: 40/40, Isolation: 35/35, Modular: 11/25\n"
+                        },
+                        {
+                          "text": "🎯 Analyzing Similarity...\n"
+                        },
+                        {
+                          "text": "  ✅ Similarity: 64/100\n"
+                        },
+                        {
+                          "text": "    Patterns: 24/40, Technology: 35/35, Conventions: 5/25\n"
+                        },
+                        {
+                          "text": "\n🎯 OVERALL SCORE for problem_user: 73/100\n"
+                        },
+                        {
+                          "text": "🤖 AI Recommendations: 2 suggestions generated\n"
+                        },
+                        {
+                          "text": "================================================================================\n"
+                        },
+                        {
+                          "text": "\n📊 COMPARATIVE RESULTS:\n"
+                        },
+                        {
+                          "text": "----------------------------------------\n"
+                        },
+                        {
+                          "text": "PRINCIPLE               | STANDARD | PROBLEM | DIFF\n"
+                        },
+                        {
+                          "text": "-------------------------------------------------------\n"
+                        },
+                        {
+                          "text": "observability           |       83 |      83 |    0\n"
+                        },
+                        {
+                          "text": "controllability         |       80 |      80 |    0\n"
+                        },
+                        {
+                          "text": "algorithmicSimplicity   |       80 |      80 |    0\n"
+                        },
+                        {
+                          "text": "algorithmicTransparency |       25 |      25 |    0\n"
+                        },
+                        {
+                          "text": "algorithmicStability    |      100 |     100 |    0\n"
+                        },
+                        {
+                          "text": "explainability          |       25 |      25 |    0\n"
+                        },
+                        {
+                          "text": "unbugginess             |       85 |      85 |    0\n"
+                        },
+                        {
+                          "text": "smallness               |      100 |     100 |    0\n"
+                        },
+                        {
+                          "text": "decomposability         |       86 |      86 |    0\n"
+                        },
+                        {
+                          "text": "similarity              |       64 |      64 |    0\n"
+                        },
+                        {
+                          "text": "-------------------------------------------------------\n"
+                        },
+                        {
+                          "text": "OVERALL                 |       73 |      73 | 0\n"
+                        },
+                        {
+                          "text": "\n🎯 COMPARATIVE INSIGHTS:\n"
+                        },
+                        {
+                          "text": "   Better Performance: problem_user\n"
+                        },
+                        {
+                          "text": "   Score Difference: 0 points\n"
+                        },
+                        {
+                          "text": "   Standard User Grade: C (Average)\n"
+                        },
+                        {
+                          "text": "   Problem User Grade: C (Average)\n"
+                        },
+                        {
+                          "text": "\n📊 LARGEST DIFFERENCES:\n"
+                        },
+                        {
+                          "text": "   1. observability: 0 point difference\n"
+                        },
+                        {
+                          "text": "   2. controllability: 0 point difference\n"
+                        },
+                        {
+                          "text": "   3. algorithmicSimplicity: 0 point difference\n"
+                        },
+                        {
+                          "text": "\n✅ Comparative Analysis Complete!\n"
+                        },
+                        {
+                          "text": "\n📊 Test Analysis: Comparative Analysis: Problem User vs Standard User\n"
+                        },
+                        {
+                          "text": "   Status: passed\n"
+                        },
+                        {
+                          "text": "   Duration: 13885ms\n"
+                        },
+                        {
+                          "text": "   ✅ Success: Complete testability analysis executed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-07T14:37:20.826Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "50e97d1bd25f0d15febd-5597b41d3aeb12690681",
+              "file": "complete-10-principle-testability.spec.js",
+              "line": 224,
+              "column": 3
+            },
+            {
+              "title": "Principle-Specific Deep Analysis: Observability Focus",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 13459,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n🔍 OBSERVABILITY DEEP ANALYSIS\n"
+                        },
+                        {
+                          "text": "==================================================\n"
+                        },
+                        {
+                          "text": "🔍 Analyzing Observability...\n"
+                        },
+                        {
+                          "text": "  ✅ Observability: 73/100\n"
+                        },
+                        {
+                          "text": "    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 5/15\n"
+                        },
+                        {
+                          "text": "\n🔍 OBSERVABILITY DETAILED BREAKDOWN:\n"
+                        },
+                        {
+                          "text": "   Overall Score: 73/100\n"
+                        },
+                        {
+                          "text": "   State Visibility: 18/25\n"
+                        },
+                        {
+                          "text": "   Data-Test Attributes: 25/25\n"
+                        },
+                        {
+                          "text": "   Error Visibility: 10/20\n"
+                        },
+                        {
+                          "text": "   Visual Observability: 15/15\n"
+                        },
+                        {
+                          "text": "   Network Observability: 5/15\n"
+                        },
+                        {
+                          "text": "\n📊 OBSERVABILITY ELEMENTS:\n"
+                        },
+                        {
+                          "text": "   Data-test elements: 74\n"
+                        },
+                        {
+                          "text": "   Error elements: 0\n"
+                        },
+                        {
+                          "text": "   Visual elements: 8\n"
+                        },
+                        {
+                          "text": "\n✅ Observability Analysis Complete!\n"
+                        },
+                        {
+                          "text": "\n📊 Test Analysis: Principle-Specific Deep Analysis: Observability Focus\n"
+                        },
+                        {
+                          "text": "   Status: passed\n"
+                        },
+                        {
+                          "text": "   Duration: 13314ms\n"
+                        },
+                        {
+                          "text": "   ✅ Success: Complete testability analysis executed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-07T14:37:20.826Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "50e97d1bd25f0d15febd-fa56896de7c26515b147",
+              "file": "complete-10-principle-testability.spec.js",
+              "line": 311,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-07T14:37:14.680Z",
+    "duration": 48493.819,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

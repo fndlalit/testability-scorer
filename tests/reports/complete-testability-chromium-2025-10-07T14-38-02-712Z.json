@@ -1,0 +1,380 @@
+{
+  "timestamp": "2025-10-07T14:37:20.875Z",
+  "framework": "Complete 10-Principle AI-Enhanced Analysis",
+  "browser": "chromium",
+  "principlesAnalyzed": 10,
+  "results": [
+    {
+      "userType": "standard_user",
+      "timestamp": "2025-10-07T14:37:36.859Z",
+      "overallScore": 73,
+      "principleScores": {
+        "observability": 83,
+        "controllability": 80,
+        "algorithmicSimplicity": 80,
+        "algorithmicTransparency": 25,
+        "algorithmicStability": 100,
+        "explainability": 25,
+        "unbugginess": 85,
+        "smallness": 100,
+        "decomposability": 86,
+        "similarity": 64
+      },
+      "detailedMetrics": {
+        "observability": {
+          "stateVisibility": 18,
+          "dataTestAttributes": 25,
+          "errorVisibility": 10,
+          "visualObservability": 15,
+          "networkObservability": 15
+        },
+        "controllability": {
+          "inputPrecision": 10,
+          "stateControl": 25,
+          "determinism": 25,
+          "interactionReliability": 20
+        },
+        "algorithmicSimplicity": {
+          "inputOutputClarity": 35,
+          "operationComplexity": 35,
+          "behaviorPredictability": 10
+        },
+        "algorithmicTransparency": {
+          "behaviorVisibility": 0,
+          "processUnderstanding": 0,
+          "blackBoxReduction": 25
+        },
+        "algorithmicStability": {
+          "changeResilience": 35,
+          "testMaintainability": 35,
+          "behaviorConsistency": 30
+        },
+        "explainability": {
+          "codeClarity": 10,
+          "documentationQuality": 15,
+          "semanticStructure": 0
+        },
+        "unbugginess": {
+          "errorRate": 40,
+          "errorHandling": 20,
+          "robustness": 25
+        },
+        "smallness": {
+          "componentSize": 40,
+          "testScope": 35,
+          "outputManageability": 25
+        },
+        "decomposability": {
+          "componentSeparation": 40,
+          "isolatedTesting": 35,
+          "modularDesign": 11
+        },
+        "similarity": {
+          "standardPatterns": 24,
+          "familiarTechnology": 35,
+          "conventionalDesign": 5
+        }
+      },
+      "aiRecommendations": [
+        {
+          "principle": "algorithmicTransparency",
+          "score": 25,
+          "priority": "Critical",
+          "suggestion": "Add progress indicators, improve feedback messages, and reduce black-box operations",
+          "aiReasoning": "AI analysis shows algorithmicTransparency scoring 25/100, indicating need for improvement"
+        },
+        {
+          "principle": "explainability",
+          "score": 25,
+          "priority": "Critical",
+          "suggestion": "Add semantic HTML elements, implement ARIA labels, and improve documentation",
+          "aiReasoning": "AI analysis shows explainability scoring 25/100, indicating need for improvement"
+        }
+      ],
+      "grade": "C (Average)"
+    },
+    {
+      "userType": "locked_out_user",
+      "error": "Login failed",
+      "scores": {}
+    },
+    {
+      "userType": "problem_user",
+      "timestamp": "2025-10-07T14:37:43.617Z",
+      "overallScore": 73,
+      "principleScores": {
+        "observability": 83,
+        "controllability": 80,
+        "algorithmicSimplicity": 80,
+        "algorithmicTransparency": 25,
+        "algorithmicStability": 100,
+        "explainability": 25,
+        "unbugginess": 85,
+        "smallness": 100,
+        "decomposability": 86,
+        "similarity": 64
+      },
+      "detailedMetrics": {
+        "observability": {
+          "stateVisibility": 18,
+          "dataTestAttributes": 25,
+          "errorVisibility": 10,
+          "visualObservability": 15,
+          "networkObservability": 15
+        },
+        "controllability": {
+          "inputPrecision": 10,
+          "stateControl": 25,
+          "determinism": 25,
+          "interactionReliability": 20
+        },
+        "algorithmicSimplicity": {
+          "inputOutputClarity": 35,
+          "operationComplexity": 35,
+          "behaviorPredictability": 10
+        },
+        "algorithmicTransparency": {
+          "behaviorVisibility": 0,
+          "processUnderstanding": 0,
+          "blackBoxReduction": 25
+        },
+        "algorithmicStability": {
+          "changeResilience": 35,
+          "testMaintainability": 35,
+          "behaviorConsistency": 30
+        },
+        "explainability": {
+          "codeClarity": 10,
+          "documentationQuality": 15,
+          "semanticStructure": 0
+        },
+        "unbugginess": {
+          "errorRate": 40,
+          "errorHandling": 20,
+          "robustness": 25
+        },
+        "smallness": {
+          "componentSize": 40,
+          "testScope": 35,
+          "outputManageability": 25
+        },
+        "decomposability": {
+          "componentSeparation": 40,
+          "isolatedTesting": 35,
+          "modularDesign": 11
+        },
+        "similarity": {
+          "standardPatterns": 24,
+          "familiarTechnology": 35,
+          "conventionalDesign": 5
+        }
+      },
+      "aiRecommendations": [
+        {
+          "principle": "algorithmicTransparency",
+          "score": 25,
+          "priority": "Critical",
+          "suggestion": "Add progress indicators, improve feedback messages, and reduce black-box operations",
+          "aiReasoning": "AI analysis shows algorithmicTransparency scoring 25/100, indicating need for improvement"
+        },
+        {
+          "principle": "explainability",
+          "score": 25,
+          "priority": "Critical",
+          "suggestion": "Add semantic HTML elements, implement ARIA labels, and improve documentation",
+          "aiReasoning": "AI analysis shows explainability scoring 25/100, indicating need for improvement"
+        }
+      ],
+      "grade": "C (Average)"
+    },
+    {
+      "userType": "performance_glitch_user",
+      "timestamp": "2025-10-07T14:37:46.754Z",
+      "overallScore": 54,
+      "principleScores": {
+        "observability": 83,
+        "controllability": 80,
+        "algorithmicSimplicity": 80,
+        "algorithmicTransparency": 25,
+        "algorithmicStability": 40,
+        "explainability": 25,
+        "unbugginess": 60,
+        "smallness": 45,
+        "decomposability": 50,
+        "similarity": 55
+      },
+      "detailedMetrics": {
+        "observability": {
+          "stateVisibility": 18,
+          "dataTestAttributes": 25,
+          "errorVisibility": 10,
+          "visualObservability": 15,
+          "networkObservability": 15
+        },
+        "controllability": {
+          "inputPrecision": 10,
+          "stateControl": 25,
+          "determinism": 25,
+          "interactionReliability": 20
+        },
+        "algorithmicSimplicity": {
+          "inputOutputClarity": 35,
+          "operationComplexity": 35,
+          "behaviorPredictability": 10
+        },
+        "algorithmicTransparency": {
+          "behaviorVisibility": 0,
+          "processUnderstanding": 0,
+          "blackBoxReduction": 25
+        },
+        "algorithmicStability": {},
+        "explainability": {},
+        "unbugginess": {},
+        "smallness": {},
+        "decomposability": {},
+        "similarity": {}
+      },
+      "aiRecommendations": [
+        {
+          "principle": "algorithmicTransparency",
+          "score": 25,
+          "priority": "Critical",
+          "suggestion": "Add progress indicators, improve feedback messages, and reduce black-box operations",
+          "aiReasoning": "AI analysis shows algorithmicTransparency scoring 25/100, indicating need for improvement"
+        },
+        {
+          "principle": "algorithmicStability",
+          "score": 40,
+          "priority": "High",
+          "suggestion": "Implement consistent data-test patterns and improve element stability",
+          "aiReasoning": "AI analysis shows algorithmicStability scoring 40/100, indicating need for improvement"
+        },
+        {
+          "principle": "explainability",
+          "score": 25,
+          "priority": "Critical",
+          "suggestion": "Add semantic HTML elements, implement ARIA labels, and improve documentation",
+          "aiReasoning": "AI analysis shows explainability scoring 25/100, indicating need for improvement"
+        },
+        {
+          "principle": "smallness",
+          "score": 45,
+          "priority": "High",
+          "suggestion": "Break down large components, reduce page size, and improve modularity",
+          "aiReasoning": "AI analysis shows smallness scoring 45/100, indicating need for improvement"
+        },
+        {
+          "principle": "decomposability",
+          "score": 50,
+          "priority": "Medium",
+          "suggestion": "Improve component separation, add isolated test targets, and enhance modularity",
+          "aiReasoning": "AI analysis shows decomposability scoring 50/100, indicating need for improvement"
+        },
+        {
+          "principle": "similarity",
+          "score": 55,
+          "priority": "Medium",
+          "suggestion": "Follow standard UI patterns, implement conventional design, and use familiar technologies",
+          "aiReasoning": "AI analysis shows similarity scoring 55/100, indicating need for improvement"
+        }
+      ],
+      "grade": "F (Poor)"
+    },
+    {
+      "userType": "performance_glitch_user",
+      "error": "page.screenshot: Target page, context or browser has been closed"
+    },
+    {
+      "userType": "error_user",
+      "error": "page.goto: Target page, context or browser has been closed",
+      "scores": {}
+    },
+    {
+      "userType": "error_user",
+      "error": "page.waitForTimeout: Target page, context or browser has been closed"
+    },
+    {
+      "userType": "visual_user",
+      "error": "page.goto: Target page, context or browser has been closed",
+      "scores": {}
+    },
+    {
+      "userType": "visual_user",
+      "error": "page.waitForTimeout: Target page, context or browser has been closed"
+    }
+  ],
+  "summary": {
+    "totalUsers": 6,
+    "successfulAnalyses": 3,
+    "failedAnalyses": 6,
+    "averageScore": 67,
+    "principleBreakdown": {
+      "observability": 83,
+      "controllability": 80,
+      "algorithmicSimplicity": 80,
+      "algorithmicTransparency": 25,
+      "algorithmicStability": 80,
+      "explainability": 25,
+      "unbugginess": 77,
+      "smallness": 82,
+      "decomposability": 74,
+      "similarity": 61
+    },
+    "criticalIssues": [
+      {
+        "principle": "algorithmicTransparency",
+        "averageScore": 25,
+        "severity": "Critical"
+      },
+      {
+        "principle": "explainability",
+        "averageScore": 25,
+        "severity": "Critical"
+      }
+    ],
+    "topRecommendations": [
+      {
+        "principle": "algorithmicTransparency",
+        "score": 25,
+        "priority": "Critical",
+        "suggestion": "Add progress indicators, improve feedback messages, and reduce black-box operations",
+        "aiReasoning": "AI analysis shows algorithmicTransparency scoring 25/100, indicating need for improvement"
+      },
+      {
+        "principle": "explainability",
+        "score": 25,
+        "priority": "Critical",
+        "suggestion": "Add semantic HTML elements, implement ARIA labels, and improve documentation",
+        "aiReasoning": "AI analysis shows explainability scoring 25/100, indicating need for improvement"
+      },
+      {
+        "principle": "algorithmicStability",
+        "score": 40,
+        "priority": "High",
+        "suggestion": "Implement consistent data-test patterns and improve element stability",
+        "aiReasoning": "AI analysis shows algorithmicStability scoring 40/100, indicating need for improvement"
+      },
+      {
+        "principle": "smallness",
+        "score": 45,
+        "priority": "High",
+        "suggestion": "Break down large components, reduce page size, and improve modularity",
+        "aiReasoning": "AI analysis shows smallness scoring 45/100, indicating need for improvement"
+      },
+      {
+        "principle": "decomposability",
+        "score": 50,
+        "priority": "Medium",
+        "suggestion": "Improve component separation, add isolated test targets, and enhance modularity",
+        "aiReasoning": "AI analysis shows decomposability scoring 50/100, indicating need for improvement"
+      },
+      {
+        "principle": "similarity",
+        "score": 55,
+        "priority": "Medium",
+        "suggestion": "Follow standard UI patterns, implement conventional design, and use familiar technologies",
+        "aiReasoning": "AI analysis shows similarity scoring 55/100, indicating need for improvement"
+      }
+    ]
+  }
+}

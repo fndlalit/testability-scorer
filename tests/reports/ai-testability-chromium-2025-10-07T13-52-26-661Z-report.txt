@@ -1,0 +1,49 @@
+
+🤖 AI-ENHANCED INTRINSIC TESTABILITY REPORT
+Generated: 2025-10-07T13:51:46.179Z
+AI Framework: Playwright 1.49.0 with Smart Analysis
+====================================================================================================
+
+USER TYPE           | OVERALL | OBSERV | CONTROL | SIMPLE | EXPLAIN | DECOMP | AI GRADE
+----------------------------------------------------------------------------------------------------
+standard_user       |      37 |     80 |      58 |     72 |      78 |     82 | F (Not AI-Ready)
+problem_user        |      37 |     80 |      58 |     72 |      78 |     82 | F (Not AI-Ready)
+performance_glitch_user |      32 |     47 |      25 |     85 |      78 |     82 | F (Not AI-Ready)
+
+🤖 AI ANALYSIS:
+--------------------------------------------------
+AI-Calculated Average Score: 35/100
+Best AI Performance: standard_user (37/100)
+Needs AI Improvement: performance_glitch_user (32/100)
+AI Testing Readiness: 🔴 Not Ready
+
+💡 AI-POWERED RECOMMENDATIONS:
+--------------------------------------------------
+
+Controllability:
+  • Improve interaction patterns and ensure reliable element state control
+    AI Reasoning: AI analysis shows inconsistent interaction patterns and state management
+  • Improve interaction patterns and ensure reliable element state control
+    AI Reasoning: AI analysis shows inconsistent interaction patterns and state management
+  • Improve interaction patterns and ensure reliable element state control
+    AI Reasoning: AI analysis shows inconsistent interaction patterns and state management
+  • Improve interaction patterns and ensure reliable element state control
+    AI Reasoning: AI analysis shows inconsistent interaction patterns and state management
+  • Improve interaction patterns and ensure reliable element state control
+    AI Reasoning: AI analysis shows inconsistent interaction patterns and state management
+  • Improve interaction patterns and ensure reliable element state control
+    AI Reasoning: AI analysis shows inconsistent interaction patterns and state management
+  • Improve interaction patterns and ensure reliable element state control
+    AI Reasoning: AI analysis shows inconsistent interaction patterns and state management
+  • Improve interaction patterns and ensure reliable element state control
+    AI Reasoning: AI analysis shows inconsistent interaction patterns and state management
+  • Improve interaction patterns and ensure reliable element state control
+    AI Reasoning: AI analysis shows inconsistent interaction patterns and state management
+
+Observability:
+  • Add more data-test attributes and implement comprehensive state monitoring
+    AI Reasoning: AI detected limited element observability and state capture capabilities
+  • Add more data-test attributes and implement comprehensive state monitoring
+    AI Reasoning: AI detected limited element observability and state capture capabilities
+  • Add more data-test attributes and implement comprehensive state monitoring
+    AI Reasoning: AI detected limited element observability and state capture capabilities

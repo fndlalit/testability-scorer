@@ -2,7 +2,7 @@
 
 # Disclaimer:
 
-This is work-in-progress project by Lalitkumar Bhamare primary created for his interactive workshop on Software Testability. Primary purpose of this project is to introduce the participants to the idea behind Intrinsic Testability (as explained by James Bach and Michael Bolton in https://www.satisfice.com/download/heuristics-of-software-testability). And then to extend that understanding for writing automated checks for high level testability assessment of the SUT (System Under Test).
+This is work-in-progress project by Lalitkumar Bhamare and Samer Naqvi, primary created for their interactive workshop on Software Testability. Key purpose of this project is to introduce the participants to the idea behind Intrinsic Testability (as explained by James Bach and Michael Bolton in https://www.satisfice.com/download/heuristics-of-software-testability). And then to extend that understanding for writing automated checks for high level testability assessment of the SUT (System Under Test).
 
 Readers are strongly encouraged to develop deeper understanding of Software Testability before utilizing this project for any further use. Scripts used and scoring mechanism defined in the project files are for demonstration purpose only. A context-appropriate adaption and further development of the scripts/set-up is strongly recommended.
 
@@ -276,8 +276,11 @@ node run-testability-scorer.js score
 # View improvement history  
 node run-testability-scorer.js report
 
-# See detailed recommendations
+# See quick recommendations (to be reviewed)
 npx playwright test quick-testability-scorer.spec.js --project=chromium
+
+# Show user comparison (to be reviewed)
+npx playwright test quick-testability-scorer.spec.js --grep="Compare" --headed
 ```
 
 For complete scoring guide, see [TESTABILITY_SCORING_GUIDE.md](./TESTABILITY_SCORING_GUIDE.md).
@@ -291,7 +294,3 @@ When adding new tests, ensure they demonstrate one or more of the Intrinsic Test
 - [Playwright Documentation](https://playwright.dev/)
 - [Heuristics for Software Testability ](https://www.satisfice.com/download/heuristics-of-software-testability)
 - [Test Automation Best Practices](https://playwright.dev/docs/best-practices)
-
----
-
-**Note**: This project is designed for educational purposes to demonstrate the intersection of test automation tools and software testability principles.

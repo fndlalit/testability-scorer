@@ -9,8 +9,19 @@
     "test:debug": "playwright test --debug",
     "test:ui": "playwright test --ui",
     "test:report": "playwright show-report",
+    "test:codegen": "playwright codegen",
+    "test:trace": "playwright test --trace on",
+    "test:ai": "playwright test --headed --slowMo=1000",
     "install-browsers": "playwright install",
-    "install-deps": "playwright install-deps"
+    "install-deps": "playwright install-deps",
+    "testability:complete": "node generate-html-report.js complete",
+    "testability:detailed": "node generate-html-report.js detailed",
+    "testability:detailed-single": "node generate-html-report.js detailed-single",
+    "testability:all-tests": "node generate-html-report.js all-tests",
+    "testability:comparison": "node generate-html-report.js comparison",
+    "testability:observability": "node generate-html-report.js observability",
+    "testability:ai": "node generate-html-report.js ai",
+    "report:html": "node generate-html-report.js"
   },
   "keywords": [
     "playwright",
@@ -23,7 +34,7 @@
   "author": "Demo User",
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.40.0"
+    "@playwright/test": "^1.49.0"
   },
   "dependencies": {}
 }
