@@ -209,6 +209,21 @@ npm run testability:all-tests
 ```
 Executes all testability tests and generates comprehensive HTML report with full analysis.
 
+#### 🚨 Testability Failure Examples (Conference Demonstrations)
+```bash
+# Run problematic user tests for learning opportunities
+npm run testability:failures
+
+# Demo version with slow motion for presentations
+npm run testability:failures-demo
+```
+**Perfect for conference presentations!** These tests demonstrate real testability challenges with:
+- **performance_glitch_user**: Performance and timing issues
+- **error_user**: Error handling challenges  
+- **visual_user**: Visual consistency problems
+
+Shows how different failure types map to specific testability principles.
+
 ### 📂 Report Storage
 HTML reports are automatically saved to:
 ```

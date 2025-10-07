@@ -18,6 +18,8 @@
     "testability:detailed": "node generate-html-report.js detailed",
     "testability:detailed-single": "node generate-html-report.js detailed-single",
     "testability:all-tests": "node generate-html-report.js all-tests",
+    "testability:failures": "npx playwright test tests/testability-failure-examples.spec.js --project=chromium --headed --reporter=list",
+    "testability:failures-demo": "npx playwright test tests/testability-failure-examples.spec.js --project=chromium --headed --slowMo=1000 --reporter=list",
     "testability:comparison": "node generate-html-report.js comparison",
     "testability:observability": "node generate-html-report.js observability",
     "testability:ai": "node generate-html-report.js ai",
