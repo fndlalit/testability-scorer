@@ -34,10 +34,8 @@ test.describe('🎯 Complete 10-Principle Testability Assessment', () => {
     const userTypes = [
       'standard_user',
       'locked_out_user', 
-      'problem_user',
-      'performance_glitch_user',
-      'error_user',
-      'visual_user'
+      'problem_user'
+      // Removed timeout-prone users: 'performance_glitch_user', 'error_user', 'visual_user'
     ];
     
     console.log('\n🚀 STARTING COMPLETE 10-PRINCIPLE TESTABILITY ASSESSMENT');

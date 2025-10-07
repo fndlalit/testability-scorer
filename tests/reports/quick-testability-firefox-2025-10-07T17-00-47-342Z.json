@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-10-07T17:00:34.843Z",
+  "browser": "firefox",
+  "results": [
+    {
+      "userType": "standard_user",
+      "timestamp": "2025-10-07T17:00:34.843Z",
+      "overallScore": 52,
+      "scores": {
+        "observability": 76,
+        "controllability": 26,
+        "algorithmicSimplicity": 62,
+        "explainability": 34,
+        "decomposability": 61
+      },
+      "grade": "F (Poor)"
+    },
+    {
+      "userType": "problem_user",
+      "timestamp": "2025-10-07T17:00:34.843Z",
+      "overallScore": 52,
+      "scores": {
+        "observability": 76,
+        "controllability": 26,
+        "algorithmicSimplicity": 62,
+        "explainability": 34,
+        "decomposability": 61
+      },
+      "grade": "F (Poor)"
+    },
+    {
+      "userType": "performance_glitch_user",
+      "timestamp": "2025-10-07T17:00:34.843Z",
+      "overallScore": 52,
+      "scores": {
+        "observability": 76,
+        "controllability": 26,
+        "algorithmicSimplicity": 62,
+        "explainability": 34,
+        "decomposability": 61
+      },
+      "grade": "F (Poor)"
+    },
+    {
+      "userType": "visual_user",
+      "timestamp": "2025-10-07T17:00:34.843Z",
+      "overallScore": 52,
+      "scores": {
+        "observability": 76,
+        "controllability": 26,
+        "algorithmicSimplicity": 62,
+        "explainability": 34,
+        "decomposability": 61
+      },
+      "grade": "F (Poor)"
+    },
+    {
+      "userType": "error_user",
+      "timestamp": "2025-10-07T17:00:34.843Z",
+      "overallScore": 52,
+      "scores": {
+        "observability": 76,
+        "controllability": 26,
+        "algorithmicSimplicity": 62,
+        "explainability": 34,
+        "decomposability": 61
+      },
+      "grade": "F (Poor)"
+    }
+  ],
+  "summary": {
+    "totalAssessed": 5,
+    "successful": 5,
+    "failed": 0,
+    "averageScore": 52
+  }
+}

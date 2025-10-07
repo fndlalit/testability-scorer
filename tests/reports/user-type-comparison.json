@@ -1,11 +1,14 @@
 {
-  "timestamp": "2025-10-05T15:43:36.407Z",
+  "timestamp": "2025-10-07T17:10:39.756Z",
   "userScores": {
     "standard_user": {
-      "error": "locator.count: Target page, context or browser has been closed"
+      "observability": 79,
+      "controllability": 36,
+      "explainability": 20,
+      "average": 45
     },
     "problem_user": {
-      "error": "page.goto: Target page, context or browser has been closed"
+      "error": "locator.count: Target page, context or browser has been closed"
     },
     "performance_glitch_user": {
       "error": "page.goto: Target page, context or browser has been closed"
@@ -16,7 +19,7 @@
   },
   "summary": {
     "totalUsers": 4,
-    "successfulTests": 0,
-    "averageTestability": null
+    "successfulTests": 1,
+    "averageTestability": 45
   }
 }

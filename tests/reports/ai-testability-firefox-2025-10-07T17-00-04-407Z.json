@@ -1,0 +1,445 @@
+{
+  "timestamp": "2025-10-07T16:59:31.696Z",
+  "framework": "AI-Enhanced Playwright 1.49.0",
+  "browser": "firefox",
+  "results": [
+    {
+      "userType": "standard_user",
+      "timestamp": "2025-10-07T16:59:31.696Z",
+      "overallScore": 37,
+      "principleScores": {
+        "observability": 80,
+        "controllability": 58,
+        "algorithmicSimplicity": 72,
+        "algorithmicTransparency": 0,
+        "algorithmicStability": 0,
+        "explainability": 78,
+        "unbugginess": 0,
+        "smallness": 0,
+        "decomposability": 82,
+        "similarity": 0
+      },
+      "aiInsights": {
+        "elementIntelligence": {
+          "totalElements": 140,
+          "testableElements": 76,
+          "observableElements": 74
+        },
+        "accessibilityInsights": {
+          "semanticElements": {
+            "nav": 1,
+            "main": 0,
+            "section": 0,
+            "article": 0,
+            "aside": 0,
+            "header": 0,
+            "footer": 1
+          },
+          "headingStructure": {
+            "h1": 0,
+            "h2": 0,
+            "h3": 0,
+            "h4": 0,
+            "h5": 0,
+            "h6": 0
+          },
+          "landmarks": {
+            "count": 0
+          },
+          "ariaElements": {
+            "labels": 0,
+            "describedBy": 0,
+            "labelledBy": 0
+          },
+          "labelAssociations": 0
+        },
+        "patternRecognition": {
+          "complexity": {
+            "totalElements": 140,
+            "divElements": 71,
+            "nestedLevels": 13,
+            "scriptTags": 4,
+            "styleTags": 2
+          }
+        },
+        "predictiveAnalysis": {
+          "testMaintainability": "Low",
+          "futureComplexity": "Manageable",
+          "aiTestingReadiness": "Needs improvement for AI testing"
+        },
+        "improvementSuggestions": [
+          {
+            "principle": "Controllability",
+            "priority": "High",
+            "suggestion": "Improve interaction patterns and ensure reliable element state control",
+            "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+          },
+          {
+            "principle": "Controllability",
+            "priority": "High",
+            "suggestion": "Improve interaction patterns and ensure reliable element state control",
+            "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+          },
+          {
+            "principle": "Controllability",
+            "priority": "High",
+            "suggestion": "Improve interaction patterns and ensure reliable element state control",
+            "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+          }
+        ]
+      },
+      "aiMetrics": {
+        "smartElementDetection": 0,
+        "semanticAnalysis": 0,
+        "accessibilityIntelligence": 0,
+        "patternRecognition": 0,
+        "predictiveInsights": 0
+      },
+      "grade": "F (Not AI-Ready)",
+      "recommendations": [
+        {
+          "principle": "Controllability",
+          "priority": "High",
+          "suggestion": "Improve interaction patterns and ensure reliable element state control",
+          "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+        },
+        {
+          "principle": "Controllability",
+          "priority": "High",
+          "suggestion": "Improve interaction patterns and ensure reliable element state control",
+          "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+        },
+        {
+          "principle": "Controllability",
+          "priority": "High",
+          "suggestion": "Improve interaction patterns and ensure reliable element state control",
+          "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+        }
+      ]
+    },
+    {
+      "userType": "problem_user",
+      "timestamp": "2025-10-07T16:59:31.696Z",
+      "overallScore": 37,
+      "principleScores": {
+        "observability": 80,
+        "controllability": 58,
+        "algorithmicSimplicity": 72,
+        "algorithmicTransparency": 0,
+        "algorithmicStability": 0,
+        "explainability": 78,
+        "unbugginess": 0,
+        "smallness": 0,
+        "decomposability": 82,
+        "similarity": 0
+      },
+      "aiInsights": {
+        "elementIntelligence": {
+          "totalElements": 140,
+          "testableElements": 76,
+          "observableElements": 74
+        },
+        "accessibilityInsights": {
+          "semanticElements": {
+            "nav": 1,
+            "main": 0,
+            "section": 0,
+            "article": 0,
+            "aside": 0,
+            "header": 0,
+            "footer": 1
+          },
+          "headingStructure": {
+            "h1": 0,
+            "h2": 0,
+            "h3": 0,
+            "h4": 0,
+            "h5": 0,
+            "h6": 0
+          },
+          "landmarks": {
+            "count": 0
+          },
+          "ariaElements": {
+            "labels": 0,
+            "describedBy": 0,
+            "labelledBy": 0
+          },
+          "labelAssociations": 0
+        },
+        "patternRecognition": {
+          "complexity": {
+            "totalElements": 140,
+            "divElements": 71,
+            "nestedLevels": 13,
+            "scriptTags": 4,
+            "styleTags": 2
+          }
+        },
+        "predictiveAnalysis": {
+          "testMaintainability": "Low",
+          "futureComplexity": "Manageable",
+          "aiTestingReadiness": "Needs improvement for AI testing"
+        },
+        "improvementSuggestions": [
+          {
+            "principle": "Controllability",
+            "priority": "High",
+            "suggestion": "Improve interaction patterns and ensure reliable element state control",
+            "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+          },
+          {
+            "principle": "Controllability",
+            "priority": "High",
+            "suggestion": "Improve interaction patterns and ensure reliable element state control",
+            "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+          },
+          {
+            "principle": "Controllability",
+            "priority": "High",
+            "suggestion": "Improve interaction patterns and ensure reliable element state control",
+            "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+          }
+        ]
+      },
+      "aiMetrics": {
+        "smartElementDetection": 0,
+        "semanticAnalysis": 0,
+        "accessibilityIntelligence": 0,
+        "patternRecognition": 0,
+        "predictiveInsights": 0
+      },
+      "grade": "F (Not AI-Ready)",
+      "recommendations": [
+        {
+          "principle": "Controllability",
+          "priority": "High",
+          "suggestion": "Improve interaction patterns and ensure reliable element state control",
+          "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+        },
+        {
+          "principle": "Controllability",
+          "priority": "High",
+          "suggestion": "Improve interaction patterns and ensure reliable element state control",
+          "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+        },
+        {
+          "principle": "Controllability",
+          "priority": "High",
+          "suggestion": "Improve interaction patterns and ensure reliable element state control",
+          "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+        }
+      ]
+    },
+    {
+      "userType": "performance_glitch_user",
+      "timestamp": "2025-10-07T16:59:31.696Z",
+      "overallScore": 37,
+      "principleScores": {
+        "observability": 80,
+        "controllability": 58,
+        "algorithmicSimplicity": 72,
+        "algorithmicTransparency": 0,
+        "algorithmicStability": 0,
+        "explainability": 78,
+        "unbugginess": 0,
+        "smallness": 0,
+        "decomposability": 82,
+        "similarity": 0
+      },
+      "aiInsights": {
+        "elementIntelligence": {
+          "totalElements": 140,
+          "testableElements": 76,
+          "observableElements": 74
+        },
+        "accessibilityInsights": {
+          "semanticElements": {
+            "nav": 1,
+            "main": 0,
+            "section": 0,
+            "article": 0,
+            "aside": 0,
+            "header": 0,
+            "footer": 1
+          },
+          "headingStructure": {
+            "h1": 0,
+            "h2": 0,
+            "h3": 0,
+            "h4": 0,
+            "h5": 0,
+            "h6": 0
+          },
+          "landmarks": {
+            "count": 0
+          },
+          "ariaElements": {
+            "labels": 0,
+            "describedBy": 0,
+            "labelledBy": 0
+          },
+          "labelAssociations": 0
+        },
+        "patternRecognition": {
+          "complexity": {
+            "totalElements": 140,
+            "divElements": 71,
+            "nestedLevels": 13,
+            "scriptTags": 4,
+            "styleTags": 2
+          }
+        },
+        "predictiveAnalysis": {
+          "testMaintainability": "Low",
+          "futureComplexity": "Manageable",
+          "aiTestingReadiness": "Needs improvement for AI testing"
+        },
+        "improvementSuggestions": [
+          {
+            "principle": "Controllability",
+            "priority": "High",
+            "suggestion": "Improve interaction patterns and ensure reliable element state control",
+            "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+          },
+          {
+            "principle": "Controllability",
+            "priority": "High",
+            "suggestion": "Improve interaction patterns and ensure reliable element state control",
+            "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+          },
+          {
+            "principle": "Controllability",
+            "priority": "High",
+            "suggestion": "Improve interaction patterns and ensure reliable element state control",
+            "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+          }
+        ]
+      },
+      "aiMetrics": {
+        "smartElementDetection": 0,
+        "semanticAnalysis": 0,
+        "accessibilityIntelligence": 0,
+        "patternRecognition": 0,
+        "predictiveInsights": 0
+      },
+      "grade": "F (Not AI-Ready)",
+      "recommendations": [
+        {
+          "principle": "Controllability",
+          "priority": "High",
+          "suggestion": "Improve interaction patterns and ensure reliable element state control",
+          "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+        },
+        {
+          "principle": "Controllability",
+          "priority": "High",
+          "suggestion": "Improve interaction patterns and ensure reliable element state control",
+          "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+        },
+        {
+          "principle": "Controllability",
+          "priority": "High",
+          "suggestion": "Improve interaction patterns and ensure reliable element state control",
+          "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+        }
+      ]
+    },
+    {
+      "userType": "performance_glitch_user",
+      "error": "page.screenshot: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m    - disabled all CSS animations\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    },
+    {
+      "userType": "visual_user",
+      "error": "page.goto: Target page, context or browser has been closed",
+      "scores": {}
+    },
+    {
+      "userType": "visual_user",
+      "error": "page.waitForTimeout: Target page, context or browser has been closed"
+    }
+  ],
+  "aiMetrics": {
+    "smartElementDetection": 0,
+    "semanticAnalysis": 0,
+    "accessibilityIntelligence": 0,
+    "patternRecognition": 0,
+    "predictiveInsights": 0
+  },
+  "aiInsights": {
+    "elementIntelligence": {
+      "totalElements": 140,
+      "testableElements": 76,
+      "observableElements": 74
+    },
+    "accessibilityInsights": {
+      "semanticElements": {
+        "nav": 1,
+        "main": 0,
+        "section": 0,
+        "article": 0,
+        "aside": 0,
+        "header": 0,
+        "footer": 1
+      },
+      "headingStructure": {
+        "h1": 0,
+        "h2": 0,
+        "h3": 0,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "landmarks": {
+        "count": 0
+      },
+      "ariaElements": {
+        "labels": 0,
+        "describedBy": 0,
+        "labelledBy": 0
+      },
+      "labelAssociations": 0
+    },
+    "patternRecognition": {
+      "complexity": {
+        "totalElements": 140,
+        "divElements": 71,
+        "nestedLevels": 13,
+        "scriptTags": 4,
+        "styleTags": 2
+      }
+    },
+    "predictiveAnalysis": {
+      "testMaintainability": "Low",
+      "futureComplexity": "Manageable",
+      "aiTestingReadiness": "Needs improvement for AI testing"
+    },
+    "improvementSuggestions": [
+      {
+        "principle": "Controllability",
+        "priority": "High",
+        "suggestion": "Improve interaction patterns and ensure reliable element state control",
+        "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+      },
+      {
+        "principle": "Controllability",
+        "priority": "High",
+        "suggestion": "Improve interaction patterns and ensure reliable element state control",
+        "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+      },
+      {
+        "principle": "Controllability",
+        "priority": "High",
+        "suggestion": "Improve interaction patterns and ensure reliable element state control",
+        "aiReasoning": "AI analysis shows inconsistent interaction patterns and state management"
+      }
+    ]
+  },
+  "summary": {
+    "totalAssessed": 6,
+    "successful": 3,
+    "failed": 3,
+    "averageScore": 37,
+    "aiReadiness": 0
+  }
+}

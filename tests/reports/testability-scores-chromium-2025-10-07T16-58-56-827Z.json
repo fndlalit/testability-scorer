@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-07T16:58:35.154Z",
+  "overallScore": 59,
+  "principleScores": {
+    "observability": 89,
+    "controllability": 36,
+    "algorithmicSimplicity": 100,
+    "algorithmicTransparency": 41,
+    "algorithmicStability": 68,
+    "explainability": 20,
+    "unbugginess": 85,
+    "smallness": 85,
+    "decomposability": 15,
+    "similarity": 49
+  },
+  "detailedMetrics": {
+    "observability": {
+      "stateCapture": 25,
+      "networkMonitoring": 15,
+      "errorLogging": 10,
+      "visualCapture": 15,
+      "dataTestAttributes": 24
+    },
+    "controllability": {
+      "inputPrecision": 5,
+      "stateControl": 5,
+      "determinism": 25,
+      "interactionReliability": 1
+    },
+    "algorithmicSimplicity": {
+      "inputOutputClarity": 40,
+      "operationComplexity": 30,
+      "behaviorPredictability": 30
+    },
+    "algorithmicTransparency": {
+      "behaviorVisibility": 0,
+      "processUnderstanding": 20,
+      "blackBoxReduction": 21
+    },
+    "algorithmicStability": {
+      "changeResilience": 40,
+      "testMaintainability": 3,
+      "behaviorConsistency": 25
+    },
+    "explainability": {
+      "codeClarity": 10,
+      "documentationQuality": 0,
+      "semanticStructure": 10
+    },
+    "unbugginess": {
+      "errorRate": 40,
+      "errorHandling": 20,
+      "robustness": 25
+    },
+    "smallness": {
+      "componentSize": 40,
+      "testScope": 35,
+      "outputManageability": 10
+    },
+    "decomposability": {
+      "componentSeparation": 3,
+      "isolatedTesting": 3,
+      "modularDesign": 9
+    },
+    "similarity": {
+      "standardPatterns": 24,
+      "familiarTechnology": 15,
+      "conventionalDesign": 10
+    }
+  },
+  "recommendations": [
+    {
+      "principle": "controllability",
+      "score": 36,
+      "priority": "High",
+      "recommendation": "Improve input validation feedback, add loading states, ensure deterministic behavior"
+    },
+    {
+      "principle": "algorithmicTransparency",
+      "score": 41,
+      "priority": "High",
+      "recommendation": "Add progress indicators, provide better error messages, expose API behavior"
+    },
+    {
+      "principle": "algorithmicStability",
+      "score": 68,
+      "priority": "Medium",
+      "recommendation": "Implement better error boundaries, add regression test coverage, improve state management"
+    },
+    {
+      "principle": "explainability",
+      "score": 20,
+      "priority": "High",
+      "recommendation": "Add semantic HTML, improve accessibility attributes, enhance documentation"
+    },
+    {
+      "principle": "decomposability",
+      "score": 15,
+      "priority": "High",
+      "recommendation": "Improve component separation, add more testable interfaces, enhance modularity"
+    },
+    {
+      "principle": "similarity",
+      "score": 49,
+      "priority": "High",
+      "recommendation": "Use standard web patterns, implement familiar UI conventions, follow common design practices"
+    }
+  ],
+  "testResults": {
+    "standard_user": {
+      "loginSuccess": true,
+      "networkRequests": 21,
+      "errors": 0,
+      "inventoryItems": 36
+    },
+    "problem_user": {
+      "loginSuccess": true,
+      "networkRequests": 35,
+      "errors": 0,
+      "inventoryItems": 36
+    },
+    "visual_user": {
+      "loginSuccess": true,
+      "networkRequests": 54,
+      "errors": 0,
+      "inventoryItems": 36
+    },
+    "error_user": {
+      "loginSuccess": true,
+      "networkRequests": 73,
+      "errors": 0,
+      "inventoryItems": 36
+    }
+  }
+}

@@ -1,20 +1,6 @@
-<testsuites id="" name="" tests="4" failures="1" skipped="0" errors="0" time="48.493819">
-<testsuite name="complete-10-principle-testability.spec.js" timestamp="2025-10-07T14:37:19.782Z" hostname="chromium" tests="4" failures="1" skipped="0" time="78.705" errors="0">
-<testcase name="🎯 Complete 10-Principle Testability Assessment › Complete Analysis: All SauceDemo User Types - 10 Principles" classname="complete-10-principle-testability.spec.js" time="35.63">
-<failure message="complete-10-principle-testability.spec.js:33:3 Complete Analysis: All SauceDemo User Types - 10 Principles" type="FAILURE">
-<![CDATA[  [chromium] › complete-10-principle-testability.spec.js:33:3 › 🎯 Complete 10-Principle Testability Assessment › Complete Analysis: All SauceDemo User Types - 10 Principles 
-
-    Test timeout of 30000ms exceeded.
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ../test-results/complete-10-principle-test-28ce6--User-Types---10-Principles-chromium/test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ../test-results/complete-10-principle-test-28ce6--User-Types---10-Principles-chromium/video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-]]>
-</failure>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="19.606999">
+<testsuite name="complete-10-principle-testability.spec.js" timestamp="2025-10-07T17:26:33.786Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.028" errors="0">
+<testcase name="🎯 Complete 10-Principle Testability Assessment › Complete Analysis: All SauceDemo User Types - 10 Principles" classname="complete-10-principle-testability.spec.js" time="13.028">
 <system-out>
 <![CDATA[
 🚀 STARTING COMPLETE 10-PRINCIPLE TESTABILITY ASSESSMENT
@@ -109,65 +95,8 @@
 🤖 AI Recommendations: 2 suggestions generated
 ================================================================================
 
-🎯 Processing performance_glitch_user...
-
-🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: performance_glitch_user
-================================================================================
-✅ performance_glitch_user: Successfully logged in, analyzing all 10 principles...
-🔍 Analyzing Observability...
-  ✅ Observability: 83/100
-    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 15/15
-🎮 Analyzing Controllability...
-  ✅ Controllability: 80/100
-    Input: 10/30, State: 25/25, Determinism: 25/25, Reliability: 20/20
-🧩 Analyzing Algorithmic Simplicity...
-  ✅ Algorithmic Simplicity: 80/100
-    Clarity: 35/35, Complexity: 35/35, Predictability: 10/30
-🔬 Analyzing Algorithmic Transparency...
-  ✅ Algorithmic Transparency: 25/100
-    Visibility: 0/40, Understanding: 0/35, BlackBox: 25/25
-⚖️ Analyzing Algorithmic Stability...
-
-📊 Test Analysis: Complete Analysis: All SauceDemo User Types - 10 Principles
-   Status: timedOut
-   Duration: 30001ms
-  ❌ Algorithmic Stability analysis failed: page.reload: Test timeout of 30000ms exceeded.
-Call log:
-[2m  - waiting for navigation until "load"[22m
-[2m    - navigated to "https://www.saucedemo.com/inventory.html"[22m
-
-📖 Analyzing Explainability...
-  ❌ Explainability analysis failed: locator.count: Target page, context or browser has been closed
-🐛 Analyzing Unbugginess...
-  ❌ Unbugginess analysis failed: page.evaluate: Target page, context or browser has been closed
-📏 Analyzing Smallness...
-  ❌ Smallness analysis failed: locator.count: Target page, context or browser has been closed
-🔧 Analyzing Decomposability...
-  ❌ Decomposability analysis failed: locator.count: Target page, context or browser has been closed
-🎯 Analyzing Similarity...
-  ❌ Similarity analysis failed: page.evaluate: Target page, context or browser has been closed
-
-🎯 OVERALL SCORE for performance_glitch_user: 54/100
-🤖 AI Recommendations: 6 suggestions generated
-================================================================================
-❌ Error processing performance_glitch_user: page.screenshot: Target page, context or browser has been closed
-
-🎯 Processing error_user...
-
-🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: error_user
-================================================================================
-❌ Complete analysis error for error_user: page.goto: Target page, context or browser has been closed
-❌ Error processing error_user: page.waitForTimeout: Target page, context or browser has been closed
-
-🎯 Processing visual_user...
-
-🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: visual_user
-================================================================================
-❌ Complete analysis error for visual_user: page.goto: Target page, context or browser has been closed
-❌ Error processing visual_user: page.waitForTimeout: Target page, context or browser has been closed
-
 📊 COMPREHENSIVE 10-PRINCIPLE TESTABILITY REPORT
-Generated: 2025-10-07T14:37:20.875Z
+Generated: 2025-10-07T17:26:34.796Z
 🤖 AI-Enhanced Analysis Framework
 ========================================================================================================================
 
@@ -175,25 +104,24 @@ USER TYPE        | OVERALL | OBS | CTL | SIM | TRA | STA | EXP | UNB | SMA | DEC
 ------------------------------------------------------------------------------------------------------------------------
 standard_user    |      73 |  83 |  80 |  80 |  25 | 100 |  25 |  85 | 100 |  86 |  64 | C (Average)
 problem_user     |      73 |  83 |  80 |  80 |  25 | 100 |  25 |  85 | 100 |  86 |  64 | C (Average)
-performance_glitch_user |      54 |  83 |  80 |  80 |  25 |  40 |  25 |  60 |  45 |  50 |  55 | F (Poor)
 
 🤖 AI COMPREHENSIVE ANALYSIS:
 ------------------------------------------------------------
-Average Testability Score: 67/100
+Average Testability Score: 73/100
 Best Performance: standard_user (73/100)
-Needs Improvement: performance_glitch_user (54/100)
-Score Variance: 19 points
+Needs Improvement: standard_user (73/100)
+Score Variance: 0 points
 
 🎯 PRINCIPLE STRENGTH ANALYSIS (Average Scores):
 ------------------------------------------------------------
+algorithmicStability     : 100/100 🟢 Strong
+smallness                : 100/100 🟢 Strong
+decomposability          :  86/100 🟢 Strong
+unbugginess              :  85/100 🟢 Strong
 observability            :  83/100 🟢 Strong
-smallness                :  82/100 🟢 Strong
 controllability          :  80/100 🟢 Strong
 algorithmicSimplicity    :  80/100 🟢 Strong
-algorithmicStability     :  80/100 🟢 Strong
-unbugginess              :  77/100 🟡 Moderate
-decomposability          :  74/100 🟡 Moderate
-similarity               :  61/100 🟡 Moderate
+similarity               :  64/100 🟡 Moderate
 algorithmicTransparency  :  25/100 🔴 Weak
 explainability           :  25/100 🔴 Weak
 
@@ -213,296 +141,29 @@ explainability           :  25/100 🔴 Weak
 • EXPLAINABILITY: Add semantic HTML elements, implement ARIA labels, and improve documentation
   AI Reasoning: AI analysis shows explainability scoring 25/100, indicating need for improvement
 
-• ALGORITHMICTRANSPARENCY: Add progress indicators, improve feedback messages, and reduce black-box operations
-  AI Reasoning: AI analysis shows algorithmicTransparency scoring 25/100, indicating need for improvement
-
-• EXPLAINABILITY: Add semantic HTML elements, implement ARIA labels, and improve documentation
-  AI Reasoning: AI analysis shows explainability scoring 25/100, indicating need for improvement
 
 
-⚠️ HIGH PRIORITY:
-• ALGORITHMICSTABILITY: Implement consistent data-test patterns and improve element stability
-  AI Reasoning: AI analysis shows algorithmicStability scoring 40/100, indicating need for improvement
-
-• SMALLNESS: Break down large components, reduce page size, and improve modularity
-  AI Reasoning: AI analysis shows smallness scoring 45/100, indicating need for improvement
-
-
-
-🎨 HTML Report Generated: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/testability-report-2025-10-07T14-38-02-752Z.html
+🎨 HTML Report Generated: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/testability-report-2025-10-07T17-26-48-810Z.html
 📊 Open in browser to view interactive testability analysis
 
 💾 Complete Analysis Results Saved:
-   📊 Detailed Data: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/complete-testability-chromium-2025-10-07T14-38-02-712Z.json
-   📄 Text Report: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/complete-testability-chromium-2025-10-07T14-38-02-712Z-report.txt
-   🎨 Interactive HTML Report: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/testability-report-2025-10-07T14-38-02-752Z.html
+   📊 Detailed Data: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/complete-testability-chromium-2025-10-07T17-26-48-775Z.json
+   📄 Text Report: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/complete-testability-chromium-2025-10-07T17-26-48-775Z-report.txt
+   🎨 Interactive HTML Report: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/testability-report-2025-10-07T17-26-48-810Z.html
 
 🌐 Open the HTML report in your browser for interactive analysis!
 
 🎯 COMPLETE ASSESSMENT SUMMARY:
-   📊 Average Score: 67/100
-   ✅ Successful Analyses: 3/6
+   📊 Average Score: 73/100
+   ✅ Successful Analyses: 2/3
    🎯 Principles Evaluated: 10 per user type
-   🤖 AI Recommendations: 6 generated
+   🤖 AI Recommendations: 2 generated
 
 🎉 Complete 10-Principle Analysis Successful!
 
-[[ATTACHMENT|complete-10-principle-test-28ce6--User-Types---10-Principles-chromium/test-failed-1.png]]
-
-[[ATTACHMENT|complete-10-principle-test-28ce6--User-Types---10-Principles-chromium/video.webm]]
-]]>
-</system-out>
-</testcase>
-<testcase name="🎯 Complete 10-Principle Testability Assessment › Detailed Principle Analysis: Standard User Deep Dive" classname="complete-10-principle-testability.spec.js" time="15.522">
-<system-out>
-<![CDATA[
-🔬 DETAILED 10-PRINCIPLE DEEP DIVE: Standard User
-================================================================================
-
-🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: standard_user
-================================================================================
-✅ standard_user: Successfully logged in, analyzing all 10 principles...
-🔍 Analyzing Observability...
-  ✅ Observability: 83/100
-    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 15/15
-🎮 Analyzing Controllability...
-  ✅ Controllability: 80/100
-    Input: 10/30, State: 25/25, Determinism: 25/25, Reliability: 20/20
-🧩 Analyzing Algorithmic Simplicity...
-  ✅ Algorithmic Simplicity: 80/100
-    Clarity: 35/35, Complexity: 35/35, Predictability: 10/30
-🔬 Analyzing Algorithmic Transparency...
-  ✅ Algorithmic Transparency: 25/100
-    Visibility: 0/40, Understanding: 0/35, BlackBox: 25/25
-⚖️ Analyzing Algorithmic Stability...
-  ✅ Algorithmic Stability: 100/100
-    Resilience: 35/35, Maintainability: 35/35, Consistency: 30/30
-📖 Analyzing Explainability...
-  ✅ Explainability: 25/100
-    Clarity: 10/35, Documentation: 15/35, Structure: 0/30
-🐛 Analyzing Unbugginess...
-  ✅ Unbugginess: 85/100
-    Errors: 40/40, Handling: 20/35, Robustness: 25/25
-📏 Analyzing Smallness...
-  ✅ Smallness: 100/100
-    Size: 40/40, Scope: 35/35, Management: 25/25
-🔧 Analyzing Decomposability...
-  ✅ Decomposability: 86/100
-    Separation: 40/40, Isolation: 35/35, Modular: 11/25
-🎯 Analyzing Similarity...
-  ✅ Similarity: 64/100
-    Patterns: 24/40, Technology: 35/35, Conventions: 5/25
-
-🎯 OVERALL SCORE for standard_user: 73/100
-🤖 AI Recommendations: 2 suggestions generated
-================================================================================
-
-📊 DETAILED PRINCIPLE BREAKDOWN:
---------------------------------------------------
-🔍 Observability            :  83/100 🟢
-🎮 Controllability          :  80/100 🟢
-🧩 Algorithmic Simplicity   :  80/100 🟢
-🔬 Algorithmic Transparency :  25/100 🔴
-⚖️ Algorithmic Stability    : 100/100 🟢
-📖 Explainability           :  25/100 🔴
-🐛 Unbugginess              :  85/100 🟢
-📏 Smallness                : 100/100 🟢
-🔧 Decomposability          :  86/100 🟢
-🎯 Similarity               :  64/100 🟡
-
-🎯 Overall Score: 73/100 (C (Average))
-
-🔍 DETAILED METRICS SAMPLE:
-------------------------------
-Observability Metrics: {
-  stateVisibility: [33m18[39m,
-  dataTestAttributes: [33m25[39m,
-  errorVisibility: [33m10[39m,
-  visualObservability: [33m15[39m,
-  networkObservability: [33m15[39m
-}
-Controllability Metrics: {
-  inputPrecision: [33m10[39m,
-  stateControl: [33m25[39m,
-  determinism: [33m25[39m,
-  interactionReliability: [33m20[39m
-}
-
-🤖 AI RECOMMENDATIONS:
-------------------------------
-1. CRITICAL: algorithmicTransparency
-   Add progress indicators, improve feedback messages, and reduce black-box operations
-   AI Reasoning: AI analysis shows algorithmicTransparency scoring 25/100, indicating need for improvement
-
-2. CRITICAL: explainability
-   Add semantic HTML elements, implement ARIA labels, and improve documentation
-   AI Reasoning: AI analysis shows explainability scoring 25/100, indicating need for improvement
-
-
-✅ Detailed Analysis Complete!
-
-🎨 HTML Report Generated: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/testability-report-2025-10-07T14-37-40-770Z.html
-📊 Open in browser to view interactive testability analysis
-
-🎨 Detailed HTML Report: /Users/lalitkumar.bhamare/Desktop/Conference Talks/Demo Swag Labs/tests/reports/testability-report-2025-10-07T14-37-40-770Z.html
-
-📊 Test Analysis: Detailed Principle Analysis: Standard User Deep Dive
+📊 Test Analysis: Complete Analysis: All SauceDemo User Types - 10 Principles
    Status: passed
-   Duration: 15380ms
-   ✅ Success: Complete testability analysis executed
-]]>
-</system-out>
-</testcase>
-<testcase name="🎯 Complete 10-Principle Testability Assessment › Comparative Analysis: Problem User vs Standard User" classname="complete-10-principle-testability.spec.js" time="14.094">
-<system-out>
-<![CDATA[
-🆚 COMPARATIVE 10-PRINCIPLE ANALYSIS
-============================================================
-
-📊 Analyzing standard_user...
-
-🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: standard_user
-================================================================================
-✅ standard_user: Successfully logged in, analyzing all 10 principles...
-🔍 Analyzing Observability...
-  ✅ Observability: 83/100
-    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 15/15
-🎮 Analyzing Controllability...
-  ✅ Controllability: 80/100
-    Input: 10/30, State: 25/25, Determinism: 25/25, Reliability: 20/20
-🧩 Analyzing Algorithmic Simplicity...
-  ✅ Algorithmic Simplicity: 80/100
-    Clarity: 35/35, Complexity: 35/35, Predictability: 10/30
-🔬 Analyzing Algorithmic Transparency...
-  ✅ Algorithmic Transparency: 25/100
-    Visibility: 0/40, Understanding: 0/35, BlackBox: 25/25
-⚖️ Analyzing Algorithmic Stability...
-  ✅ Algorithmic Stability: 100/100
-    Resilience: 35/35, Maintainability: 35/35, Consistency: 30/30
-📖 Analyzing Explainability...
-  ✅ Explainability: 25/100
-    Clarity: 10/35, Documentation: 15/35, Structure: 0/30
-🐛 Analyzing Unbugginess...
-  ✅ Unbugginess: 85/100
-    Errors: 40/40, Handling: 20/35, Robustness: 25/25
-📏 Analyzing Smallness...
-  ✅ Smallness: 100/100
-    Size: 40/40, Scope: 35/35, Management: 25/25
-🔧 Analyzing Decomposability...
-  ✅ Decomposability: 86/100
-    Separation: 40/40, Isolation: 35/35, Modular: 11/25
-🎯 Analyzing Similarity...
-  ✅ Similarity: 64/100
-    Patterns: 24/40, Technology: 35/35, Conventions: 5/25
-
-🎯 OVERALL SCORE for standard_user: 73/100
-🤖 AI Recommendations: 2 suggestions generated
-================================================================================
-
-📊 Analyzing problem_user...
-
-🤖 COMPREHENSIVE 10-PRINCIPLE ANALYSIS: problem_user
-================================================================================
-✅ problem_user: Successfully logged in, analyzing all 10 principles...
-🔍 Analyzing Observability...
-  ✅ Observability: 83/100
-    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 15/15
-🎮 Analyzing Controllability...
-  ✅ Controllability: 80/100
-    Input: 10/30, State: 25/25, Determinism: 25/25, Reliability: 20/20
-🧩 Analyzing Algorithmic Simplicity...
-  ✅ Algorithmic Simplicity: 80/100
-    Clarity: 35/35, Complexity: 35/35, Predictability: 10/30
-🔬 Analyzing Algorithmic Transparency...
-  ✅ Algorithmic Transparency: 25/100
-    Visibility: 0/40, Understanding: 0/35, BlackBox: 25/25
-⚖️ Analyzing Algorithmic Stability...
-  ✅ Algorithmic Stability: 100/100
-    Resilience: 35/35, Maintainability: 35/35, Consistency: 30/30
-📖 Analyzing Explainability...
-  ✅ Explainability: 25/100
-    Clarity: 10/35, Documentation: 15/35, Structure: 0/30
-🐛 Analyzing Unbugginess...
-  ✅ Unbugginess: 85/100
-    Errors: 40/40, Handling: 20/35, Robustness: 25/25
-📏 Analyzing Smallness...
-  ✅ Smallness: 100/100
-    Size: 40/40, Scope: 35/35, Management: 25/25
-🔧 Analyzing Decomposability...
-  ✅ Decomposability: 86/100
-    Separation: 40/40, Isolation: 35/35, Modular: 11/25
-🎯 Analyzing Similarity...
-  ✅ Similarity: 64/100
-    Patterns: 24/40, Technology: 35/35, Conventions: 5/25
-
-🎯 OVERALL SCORE for problem_user: 73/100
-🤖 AI Recommendations: 2 suggestions generated
-================================================================================
-
-📊 COMPARATIVE RESULTS:
-----------------------------------------
-PRINCIPLE               | STANDARD | PROBLEM | DIFF
--------------------------------------------------------
-observability           |       83 |      83 |    0
-controllability         |       80 |      80 |    0
-algorithmicSimplicity   |       80 |      80 |    0
-algorithmicTransparency |       25 |      25 |    0
-algorithmicStability    |      100 |     100 |    0
-explainability          |       25 |      25 |    0
-unbugginess             |       85 |      85 |    0
-smallness               |      100 |     100 |    0
-decomposability         |       86 |      86 |    0
-similarity              |       64 |      64 |    0
--------------------------------------------------------
-OVERALL                 |       73 |      73 | 0
-
-🎯 COMPARATIVE INSIGHTS:
-   Better Performance: problem_user
-   Score Difference: 0 points
-   Standard User Grade: C (Average)
-   Problem User Grade: C (Average)
-
-📊 LARGEST DIFFERENCES:
-   1. observability: 0 point difference
-   2. controllability: 0 point difference
-   3. algorithmicSimplicity: 0 point difference
-
-✅ Comparative Analysis Complete!
-
-📊 Test Analysis: Comparative Analysis: Problem User vs Standard User
-   Status: passed
-   Duration: 13885ms
-   ✅ Success: Complete testability analysis executed
-]]>
-</system-out>
-</testcase>
-<testcase name="🎯 Complete 10-Principle Testability Assessment › Principle-Specific Deep Analysis: Observability Focus" classname="complete-10-principle-testability.spec.js" time="13.459">
-<system-out>
-<![CDATA[
-🔍 OBSERVABILITY DEEP ANALYSIS
-==================================================
-🔍 Analyzing Observability...
-  ✅ Observability: 73/100
-    State: 18/25, Data-test: 25/25, Errors: 10/20, Visual: 15/15, Network: 5/15
-
-🔍 OBSERVABILITY DETAILED BREAKDOWN:
-   Overall Score: 73/100
-   State Visibility: 18/25
-   Data-Test Attributes: 25/25
-   Error Visibility: 10/20
-   Visual Observability: 15/15
-   Network Observability: 5/15
-
-📊 OBSERVABILITY ELEMENTS:
-   Data-test elements: 74
-   Error elements: 0
-   Visual elements: 8
-
-✅ Observability Analysis Complete!
-
-📊 Test Analysis: Principle-Specific Deep Analysis: Observability Focus
-   Status: passed
-   Duration: 13314ms
+   Duration: 12864ms
    ✅ Success: Complete testability analysis executed
 ]]>
 </system-out>
